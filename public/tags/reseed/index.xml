@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reseed on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/tags/reseed/</link>
+    <description>Recent content in reseed on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Jul 2012 17:00:11 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/tags/reseed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Table variables, identity columns and reseeding</title>
+      <link>http://grapefruitmoon.net/table-variables-identity-columns-and-reseeding/</link>
+      <pubDate>Wed, 25 Jul 2012 17:00:11 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/table-variables-identity-columns-and-reseeding/</guid>
+      <description>Ever tried to reseed an identity column in a table variable? No? Let&#39;s give it a go…
+Let&#39;s declare a simple table variable, @country, and insert a few rows.
+DECLARE @country TABLE ( CountryId INT IDENTITY(1,1), CountryName VARCHAR(50) NOT null ); INSERT INTO @country ( CountryName ) VALUES ( &amp;#39;Scotland&amp;#39; ), ( &amp;#39;England&amp;#39; ), ( &amp;#39;Wales&amp;#39; ), ( &amp;#39;Northern Ireland&amp;#39; ) ; SELECT CountryId , CountryName FROM @country ; Truncating a normal table will remove all the rows and reseed the identity value.</description>
+    </item>
+    
+  </channel>
+</rss>

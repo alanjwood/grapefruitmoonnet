@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL Server on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/categories/sql-server/</link>
+    <description>Recent content in SQL Server on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Apr 2018 22:45:11 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/categories/sql-server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Return and Recap</title>
+      <link>http://grapefruitmoon.net/return-and-recap/</link>
+      <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/return-and-recap/</guid>
+      <description>So I&#39;ve been meaning to get back to this blog for some time, and just…well I just haven&#39;t. Anyway, here we are, so it&#39;s time for a quick recap of what I&#39;ve been up to technically the past couple of years. (Quick because I&#39;d written a long version and MarsEdit lost the draft…said software is now uninstalled! What follows is the very brief re-write).
+Education, education, education
+Learning has been my thing.</description>
+    </item>
+    
+    <item>
+      <title>Women’s Euro Qualifiers – stats in Power BI</title>
+      <link>http://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/</link>
+      <pubDate>Wed, 01 Jun 2016 17:13:04 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/</guid>
+      <description>With the all-important Women&#39;s Euro Qualifier between Scotland and Iceland coming up on Friday, I thought it would be a good time to grab some of the data from the UEFA website and have a play with it in Power BI. I&#39;ve got the data for all teams imported, the report below is filtered to show the key statistics for the two teams of interest. When I get a bit more time to spare, I&#39;ll detail the PowerQuery steps I took to get and transform the data.</description>
+    </item>
+    
+    <item>
+      <title>SQL Server Developer Edition – now free!</title>
+      <link>http://grapefruitmoon.net/sql-server-developer-edition-now-free/</link>
+      <pubDate>Mon, 04 Apr 2016 14:05:08 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/sql-server-developer-edition-now-free/</guid>
+      <description>There was good news for data developers last week, as Microsoft announced that SQL Server Developer Edition will be available as a free download from now on. It&#39;s part of the Visual Studio Dev Essentials program, which I highly recommend signing up for (it&#39;s free!). You can grab SQL 2014 right now, and when 2016 is released later this year, it will be available too.
+The Dev Essentials program also gives you $25 worth of Azure credits for 12 months – well worth joining for this alone.</description>
+    </item>
+    
+    <item>
+      <title>Analysing Football Data in Power BI</title>
+      <link>http://grapefruitmoon.net/analysing-football-data-in-power-bi/</link>
+      <pubDate>Thu, 17 Mar 2016 17:08:54 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/analysing-football-data-in-power-bi/</guid>
+      <description>Two passions of mine that go hand in hand are sports and data. Fans nowadays can access a whole host of statistics for every sport imaginable. This data can be used for any number of reasons, including for gambling purposes and to help win fantasy leagues. Most premier sports teams now employ data analysts to look for something that will give them an edge and an advantage over their opponents. (On a related note, I&#39;m currently reading Big Data Baseball by Travis Sawchik - a really interesting insight into how the Pittsburgh Pirates used previously untapped data to improve their fortunes).</description>
+    </item>
+    
+    <item>
+      <title>SSIS – Change the Protection Level for all Packages in a Project</title>
+      <link>http://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</link>
+      <pubDate>Mon, 04 Aug 2014 15:15:14 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</guid>
+      <description>Here&#39;s a quick one I found this morning while fixing an execution issue with one of my SSIS packages. I needed to change the Protection Level of all the packages in a project from Encrypt With User Key to Don&#39;t Save Sensitive. The project contains over 30 packages, and I didn&#39;t really fancy opening each one, navigating to the properties and amending the Protection Level for each one - that&#39;s too time-consuming and frankly, boring.</description>
+    </item>
+    
+    <item>
+      <title>Execute SSIS package as a Service Account</title>
+      <link>http://grapefruitmoon.net/execute-ssis-package-as-a-service-account/</link>
+      <pubDate>Thu, 30 Jan 2014 11:58:22 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/execute-ssis-package-as-a-service-account/</guid>
+      <description>At my current client, I have a very specific set of parameters to work within regarding security. Chiefly, I need read permissions on the underlying database for a Microsoft Dynamics AX 2012 R2 installation. I have a series of SSIS packages that extract data from AX on a daily basis, executed from SQL Server Agent. The AX database, however, is hosted on a remote server and neither myself or the client team have permissions directly on this box.</description>
+    </item>
+    
+    <item>
+      <title>Try R, a free course</title>
+      <link>http://grapefruitmoon.net/try-r-a-free-course/</link>
+      <pubDate>Mon, 13 May 2013 18:17:02 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/try-r-a-free-course/</guid>
+      <description>I&#39;ve been branching out a bit in my spare time with regards to other tools and languages for manipulating and analysing data. The R language has interested me for a while, and I came across this free tutorial which serves as a pretty good introduction to its basic usage and syntax. It does so in a rather nice interactive web interface. Highly recommended if you have a spare hour or two to go through the course.</description>
+    </item>
+    
+    <item>
+      <title>Table variables, identity columns and reseeding</title>
+      <link>http://grapefruitmoon.net/table-variables-identity-columns-and-reseeding/</link>
+      <pubDate>Wed, 25 Jul 2012 17:00:11 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/table-variables-identity-columns-and-reseeding/</guid>
+      <description>Ever tried to reseed an identity column in a table variable? No? Let&#39;s give it a go…
+Let&#39;s declare a simple table variable, @country, and insert a few rows.
+DECLARE @country TABLE ( CountryId INT IDENTITY(1,1), CountryName VARCHAR(50) NOT null ); INSERT INTO @country ( CountryName ) VALUES ( &amp;#39;Scotland&amp;#39; ), ( &amp;#39;England&amp;#39; ), ( &amp;#39;Wales&amp;#39; ), ( &amp;#39;Northern Ireland&amp;#39; ) ; SELECT CountryId , CountryName FROM @country ; Truncating a normal table will remove all the rows and reseed the identity value.</description>
+    </item>
+    
+    <item>
+      <title>T-SQL Tuesday: A Day In The Life</title>
+      <link>http://grapefruitmoon.net/t-sql-tuesday-a-day-in-the-life/</link>
+      <pubDate>Tue, 17 Jul 2012 18:59:11 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/t-sql-tuesday-a-day-in-the-life/</guid>
+      <description>This month&#39;s T-SQL Tuesday is hosted by Erin Stellato, and the theme is A Day In The Life. The premise is to track what you do over the course of a day as a SQL professional. My days can differ greatly, depending on the role I&#39;m currently working in, and for what client. My current role is mainly database development and data migration work for an upgrade to an existing application.</description>
+    </item>
+    
+    <item>
+      <title>Diving into T-SQL Grouping Sets</title>
+      <link>http://grapefruitmoon.net/diving-into-t-sql-grouping-sets/</link>
+      <pubDate>Tue, 03 Jul 2012 13:21:39 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/diving-into-t-sql-grouping-sets/</guid>
+      <description>The Grouping Sets feature was added to the T-SQL GROUP BY clause with the release of SQL Server 2008. Despite its usefulness, I&#39;ve not come across many (or any) of them in the wild at any of the clients I&#39;ve worked at in the past few years. Here is a primer on how to use them, using the AdventureWorks OLTP database.
+SQL Server 2005 Style In SQL Server 2005, we could use the WITH ROLLUP syntax to add an aggregated total row:</description>
+    </item>
+    
+    <item>
+      <title>Case-sensitivity in a T-SQL WHERE clause</title>
+      <link>http://grapefruitmoon.net/case-sensitivity-in-a-t-sql-where-clause/</link>
+      <pubDate>Fri, 22 Jun 2012 18:00:17 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/case-sensitivity-in-a-t-sql-where-clause/</guid>
+      <description>I was asked today if it was possible to use a case-sensitive LIKE statement in a WHERE clause. The default SQL Server collation is case-insensitive, but the collation used can be specified in a query. To return the collation of the current database:
+SELECT DATABASEPROPERTYEX(DB_NAME(),&amp;#39;Collation&amp;#39;); In my case, this returned Latin1_General_CI_AS. The case-sensitive version of this is Latin1_General_CS_AS. To use this collation for a column, specify it after the column using the COLLATE statement.</description>
+    </item>
+    
+    <item>
+      <title>T-SQL to drop all Foreign Keys that reference a table</title>
+      <link>http://grapefruitmoon.net/t-sql-to-drop-all-foreign-keys-that-reference-a-table/</link>
+      <pubDate>Mon, 11 Jun 2012 16:45:45 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/t-sql-to-drop-all-foreign-keys-that-reference-a-table/</guid>
+      <description>In a recent data migration project, I had a task to re-number some primary key columns for certain tables, so that there was no key overlap when a number of systems were combined. Part of this process involved identifying and dropping all the foreign keys that referenced the primary key on the tables that were being changed, then adding them again after the updates were completed. To save a bit of time, I knocked up this little script to generate the DROP and ALTER statements for the referencing foreign keys for a given table.</description>
+    </item>
+    
+    <item>
+      <title>A Couple Of T-SQL Quickies</title>
+      <link>http://grapefruitmoon.net/a-couple-of-t-sql-quickies/</link>
+      <pubDate>Tue, 24 Apr 2012 19:18:44 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/a-couple-of-t-sql-quickies/</guid>
+      <description>It&#39;s been a while since I&#39;ve posted any SQL Server content, so in a bid to get back into the swing of things, here are a couple of very simple, but useful, T-SQL commands. I&#39;ve used these recently in a large project I&#39;m working on.
+Identify all tables with no Foreign Key constraints:
+select distinct&amp;lt;br /&amp;gt; t.name&amp;lt;br /&amp;gt; from sys.tables t&amp;lt;br /&amp;gt; left outer join sys.foreign_keys fk on t.object_id = fk.</description>
+    </item>
+    
+    <item>
+      <title>Powershell Deployment Script Update</title>
+      <link>http://grapefruitmoon.net/powershell-deployment-script-update/</link>
+      <pubDate>Fri, 19 Aug 2011 17:26:22 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/powershell-deployment-script-update/</guid>
+      <description>Since last weeks post on automated DB and ETL deployment builds with Powershell, I’ve made a couple of small but useful changes to the Powershell script.
+The distinct parts of the script are now encapsulated in parameterised functions. The end goal of this is to be able to turn the main script into a Powershell Module that could be installed and used when required. So now there are three functions, GetHeadFromSVN, SyncDB and DeployPackages.</description>
+    </item>
+    
+    <item>
+      <title>Automating DB and SSIS builds from source control</title>
+      <link>http://grapefruitmoon.net/automating-db-and-ssis-builds-from-source-control/</link>
+      <pubDate>Fri, 12 Aug 2011 19:16:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/automating-db-and-ssis-builds-from-source-control/</guid>
+      <description>This week I’ve been working on a new branch of a data warehouse project. To make deployment to development environments easier I decided I’d attempt to get some sort of continuous integration/automated builds to our dev server up and running. Doing this sort of thing has never been particularly straightforward for database projects, but with the fantastic SQL Compare command line tools and SQL Source Control from Red Gate, this task is made so much easier.</description>
+    </item>
+    
+    <item>
+      <title>Deleting from Excel in SSIS – a workaround</title>
+      <link>http://grapefruitmoon.net/deleting-from-excel-in-ssis-a-workaround/</link>
+      <pubDate>Thu, 05 May 2011 07:03:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/deleting-from-excel-in-ssis-a-workaround/</guid>
+      <description>Here&#39;s a quick how-to post, a little work-around for an issue with writing to Excel from SSIS.
+I&#39;ve been asked a few times how to use SSIS to delete data from an Excel spreadsheet, then write data into that blank spreadsheet, while maintaining the column headers in the first row. There is no particularly straightforward way of doing so in SSIS, as attempting a delete statement on the Excel sheet will either remove the data in all rows (including the header) or throw an error as the DELETE statement is not supported.</description>
+    </item>
+    
+    <item>
+      <title>SSIS 2008 Deployment Manifest error</title>
+      <link>http://grapefruitmoon.net/ssis-2008-deployment-manifest-error/</link>
+      <pubDate>Tue, 01 Feb 2011 14:50:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/ssis-2008-deployment-manifest-error/</guid>
+      <description>I had an issue this morning whereby I was trying to deploy an SSIS 2008 project using the Deployment Manifest, and was hitting the following error:
+ Could not save the package &amp;ldquo;Package Path&amp;rdquo; to SQL Server &amp;ldquo;SQL Server&amp;rdquo;.
+  ADDITIONAL INFORMATION:The package failed to load due to error 0xC0011008 &amp;ldquo;Error loading from XML. No further detailed error information can be specified for this problem because no Events object was passed where detailed error information can be stored.</description>
+    </item>
+    
+    <item>
+      <title>T-SQL Tuesday: Return a range of dates between 2 days</title>
+      <link>http://grapefruitmoon.net/t-sql-tuesday-return-a-range-of-dates-between-2-days/</link>
+      <pubDate>Tue, 08 Dec 2009 14:26:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/t-sql-tuesday-return-a-range-of-dates-between-2-days/</guid>
+      <description>Just after Adam Machanic announced the first of the T-SQL Tuesday blog events, I was asked a question about how to return a list of all the dates between two given days. I came across some good forum posts about how to do so, many of which utilised numbers tables. I wanted to avoid that (nothing against them, just wanted something that was stand-alone), and figured that a CTE would be the best way to go; in fact someone had posted such a method, a little of which I have used here (if I can find the post again I&#39;ll give them a mention in the comments!</description>
+    </item>
+    
+    <item>
+      <title>Identify the T-SQL being run by a SPID</title>
+      <link>http://grapefruitmoon.net/identify-the-t-sql-being-run-by-a-spid/</link>
+      <pubDate>Fri, 02 Oct 2009 14:12:33 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/identify-the-t-sql-being-run-by-a-spid/</guid>
+      <description>This is one I used to use a lot, and had cause to use it this morning. An ETL process to truncate a staging table was being blocked by another process on the server, and I needed to identify exactly what command the blocking process was attempting to execute. I found the SPID by executing sp_who2, which showed me the SPID that was blocking the truncate command (in this case SPID 54).</description>
+    </item>
+    
+    <item>
+      <title>SSIS and Tinyint datatype</title>
+      <link>http://grapefruitmoon.net/ssis-and-tinyint-datatype/</link>
+      <pubDate>Tue, 29 Sep 2009 12:47:40 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/ssis-and-tinyint-datatype/</guid>
+      <description>I&#39;ve had a couple of issues recently with using the tinyint datatype in SSIS. In one case I have a Lookup Transform which joins to the incoming data flow path on a column defined as a tinyint in the database. The column metadata in the data flow is DT_I4, a four-byte signed integer. Dragging this across to the tinyint column in the Lookup gives me the following error:
+The following columns cannot be mapped: [DataFlowColumn, LookupColumn] One or more columns do not have supported data types, or their data types do not match.</description>
+    </item>
+    
+    <item>
+      <title>SQLBits IV</title>
+      <link>http://grapefruitmoon.net/sqlbits-iv/</link>
+      <pubDate>Mon, 30 Mar 2009 20:51:18 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/sqlbits-iv/</guid>
+      <description>I travelled down to Manchester last weekend to go to the SQLBits conference, something that I&#39;d heard a lot of good things about. I&#39;m very glad I went, as it was an extremely useful and informative event. And free! 🙂
+With 28 sessions being given by 28 speakers, there was plenty of choice on what to go to…possibly too much as I missed out on a few that I would have really liked to have seen.</description>
+    </item>
+    
+    <item>
+      <title>SDS Q&amp;A</title>
+      <link>http://grapefruitmoon.net/sds-qa/</link>
+      <pubDate>Fri, 13 Mar 2009 09:32:50 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/sds-qa/</guid>
+      <description>Following up from yesterday&#39;s post about SDS, there is now a Q&amp;amp;A about the announced changes on the SDS Team Blog:
+SDS Q&amp;amp;A</description>
+    </item>
+    
+    <item>
+      <title>“Full” SQL Server in the cloud</title>
+      <link>http://grapefruitmoon.net/full-sql-server-in-the-cloud/</link>
+      <pubDate>Thu, 12 Mar 2009 09:29:19 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/full-sql-server-in-the-cloud/</guid>
+      <description>Now this is a bit interesting! On Tuesday, the SQL Data Services team announced that SDS would offer full relational database capabilities. This has really perked my interest now, as I was never fully comfortable with the ACE (Authority, Container, Entity) data model. Now that SDS is going to support Stored Procedures, Views, Indexes and even Triggers, I think this is a product to get excited about.
+Of course, the announcement means I still have more questions than answers!</description>
+    </item>
+    
+    <item>
+      <title>Excel connections in SSIS 64-bit</title>
+      <link>http://grapefruitmoon.net/excel-connections-in-ssis-64-bit/</link>
+      <pubDate>Wed, 04 Feb 2009 14:29:02 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/excel-connections-in-ssis-64-bit/</guid>
+      <description>This is a new one on me&amp;hellip;when running SSIS in a 64-bit environment, Excel connections (and Access as well I presume) do not work, as the OLE DB Provider for Jet is not supported.
+At a current client, they are moving the server platform from Windows 2003 Server to Windows 2008 Server 64-bit. I had developed some ETL packages for them, pulling data from Excel and CSV sources. The packages get executed when the files have been unzipped and downloaded to a specified folder.</description>
+    </item>
+    
+    <item>
+      <title>SSRS 2008: Using the TOP filter in a chart</title>
+      <link>http://grapefruitmoon.net/ssrs-2008-using-the-top-filter-in-a-chart/</link>
+      <pubDate>Wed, 21 Jan 2009 14:46:43 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/ssrs-2008-using-the-top-filter-in-a-chart/</guid>
+      <description>I found an interesting forum post over at SQLTeam this morning, and decided to have a go at coming up with a solution.
+Filters are quite commonly used in Tablix reports to show only the top n rows from a dataset. This is easily done by using the Top N operator in the Filters tab of the Tablix, and choosing the column in the Expression drop down.
+In the forum post however, the original poster was wanting to show the top n values in a chart.</description>
+    </item>
+    
+    <item>
+      <title>Quick tip: Search for a term in a Stored Procedure</title>
+      <link>http://grapefruitmoon.net/quick-tip-search-for-a-term-in-a-stored-procedure/</link>
+      <pubDate>Tue, 13 Jan 2009 15:25:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/quick-tip-search-for-a-term-in-a-stored-procedure/</guid>
+      <description>Need to find out if a term is referenced in any stored procedures in your database? Use the following T-SQL statement&amp;hellip;
+select name, definition from sys.procedures p inner join sys.sql_modules m on p.object_id = m.object_id where m.definition like &amp;#39;%search term%&amp;#39;; This will work in SQL Server 2005 and 2008.</description>
+    </item>
+    
+    <item>
+      <title>Running scripts on multiple servers in SSMS 2008</title>
+      <link>http://grapefruitmoon.net/running-scripts-on-multiple-servers-in-ssms-2008/</link>
+      <pubDate>Mon, 12 Jan 2009 13:59:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/running-scripts-on-multiple-servers-in-ssms-2008/</guid>
+      <description>SQL Server Management Studio 2008 has a new feature, the ability to run a script on multiple servers at once. To set this up, the servers need to be registered to a Server Group in the Registered Servers window (see image). Right-clicking on the Server Group and selecting New Query creates a query window which is connected to the servers in the group (as long as the connection information is correct and the passwords, if using SQL Server Authentication, are saved).</description>
+    </item>
+    
+    <item>
+      <title>Column headings do not repeat in SSRS 2008</title>
+      <link>http://grapefruitmoon.net/column-headings-do-not-repeat-in-ssrs-2008/</link>
+      <pubDate>Wed, 07 Jan 2009 15:18:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/column-headings-do-not-repeat-in-ssrs-2008/</guid>
+      <description>I&#39;ve just stumbled upon an odd issue with the Tablix control in SSRS 2008. I deployed a report on a server a few weeks ago and it is now reporting on enough data to make it span multiple pages. I wanted the column headings to appear on all pages, not just the first. However, when I set the RepeatColumnHeaders property on the Tablix to be true, the headings still did not appear on the next page.</description>
+    </item>
+    
+    <item>
+      <title>Formatting Dates in SSRS</title>
+      <link>http://grapefruitmoon.net/formatting-dates-in-ssrs/</link>
+      <pubDate>Wed, 07 Jan 2009 12:19:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/formatting-dates-in-ssrs/</guid>
+      <description>In Reporting Services, formatting dates can become a headache for the developer, often due to differing regional settings on servers, development boxes etc. Therefore I&#39;ve found it much more useful to force the report to use a particular format, rather than allow the server settings to decide for me. Previously I would have used FormatDateTime in the expression, as shown here:
+=FormatDateTime(Fields!DateStamp.Value, DateFormat.ShortDate)
+Depending on the regional settings, this could return either 12/3/2008 or 3/12/2008.</description>
+    </item>
+    
+    <item>
+      <title>New SQL Server blog</title>
+      <link>http://grapefruitmoon.net/new-sql-server-blog/</link>
+      <pubDate>Tue, 23 Dec 2008 11:45:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/new-sql-server-blog/</guid>
+      <description>I&#39;ll be posting any SQL Server related stuff in this new blog. I may even try to make it vaguely interesting! And I promise not to post my daily &amp;ldquo;I hate SSIS!&amp;quot;/&amp;ldquo;I love SSIS!&amp;rdquo; thoughts here. 🙂
+Don&#39;t expect any content in the next two weeks, as I&#39;ll not be working and I hope to have a wee break from databases for the duration.
+But let&#39;s make the intro post useful; go get the new SQL Server Cribsheet from Red Gate.</description>
+    </item>
+    
+  </channel>
+</rss>

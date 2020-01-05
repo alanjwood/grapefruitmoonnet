@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>powerpivot on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/tags/powerpivot/</link>
+    <description>Recent content in powerpivot on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Mar 2016 17:08:54 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/tags/powerpivot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analysing Football Data in Power BI</title>
+      <link>http://grapefruitmoon.net/analysing-football-data-in-power-bi/</link>
+      <pubDate>Thu, 17 Mar 2016 17:08:54 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/analysing-football-data-in-power-bi/</guid>
+      <description>Two passions of mine that go hand in hand are sports and data. Fans nowadays can access a whole host of statistics for every sport imaginable. This data can be used for any number of reasons, including for gambling purposes and to help win fantasy leagues. Most premier sports teams now employ data analysts to look for something that will give them an edge and an advantage over their opponents. (On a related note, I&#39;m currently reading Big Data Baseball by Travis Sawchik - a really interesting insight into how the Pittsburgh Pirates used previously untapped data to improve their fortunes).</description>
+    </item>
+    
+  </channel>
+</rss>

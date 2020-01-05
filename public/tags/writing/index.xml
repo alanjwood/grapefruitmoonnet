@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>writing on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/tags/writing/</link>
+    <description>Recent content in writing on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Aug 2011 22:24:34 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting down with Markdown</title>
+      <link>http://grapefruitmoon.net/getting-down-with-markdown/</link>
+      <pubDate>Fri, 12 Aug 2011 22:24:34 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/getting-down-with-markdown/</guid>
+      <description>You know sometimes you keep hearing about something, about how great it is, yet for some reason, you decide to ignore it and not bother checking it out? Well that’s pretty much what I had been doing with Markdown till this week. Almost every text editor I looked at on the Mac and iOS app stores mentioned support for Markdown, tech guys I respect either wrote about it or talked about it in podcasts.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dates on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/tags/dates/</link>
+    <description>Recent content in Dates on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Dec 2009 14:26:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/tags/dates/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>T-SQL Tuesday: Return a range of dates between 2 days</title>
+      <link>http://grapefruitmoon.net/t-sql-tuesday-return-a-range-of-dates-between-2-days/</link>
+      <pubDate>Tue, 08 Dec 2009 14:26:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/t-sql-tuesday-return-a-range-of-dates-between-2-days/</guid>
+      <description>Just after Adam Machanic announced the first of the T-SQL Tuesday blog events, I was asked a question about how to return a list of all the dates between two given days. I came across some good forum posts about how to do so, many of which utilised numbers tables. I wanted to avoid that (nothing against them, just wanted something that was stand-alone), and figured that a CTE would be the best way to go; in fact someone had posted such a method, a little of which I have used here (if I can find the post again I&#39;ll give them a mention in the comments!</description>
+    </item>
+    
+    <item>
+      <title>Formatting Dates in SSRS</title>
+      <link>http://grapefruitmoon.net/formatting-dates-in-ssrs/</link>
+      <pubDate>Wed, 07 Jan 2009 12:19:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/formatting-dates-in-ssrs/</guid>
+      <description>In Reporting Services, formatting dates can become a headache for the developer, often due to differing regional settings on servers, development boxes etc. Therefore I&#39;ve found it much more useful to force the report to use a particular format, rather than allow the server settings to decide for me. Previously I would have used FormatDateTime in the expression, as shown here:
+=FormatDateTime(Fields!DateStamp.Value, DateFormat.ShortDate)
+Depending on the regional settings, this could return either 12/3/2008 or 3/12/2008.</description>
+    </item>
+    
+  </channel>
+</rss>

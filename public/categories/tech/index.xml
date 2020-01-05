@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/categories/tech/</link>
+    <description>Recent content in Tech on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Apr 2018 22:45:11 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Return and Recap</title>
+      <link>http://grapefruitmoon.net/return-and-recap/</link>
+      <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/return-and-recap/</guid>
+      <description>So I&#39;ve been meaning to get back to this blog for some time, and just…well I just haven&#39;t. Anyway, here we are, so it&#39;s time for a quick recap of what I&#39;ve been up to technically the past couple of years. (Quick because I&#39;d written a long version and MarsEdit lost the draft…said software is now uninstalled! What follows is the very brief re-write).
+Education, education, education
+Learning has been my thing.</description>
+    </item>
+    
+    <item>
+      <title>Goodbye Posterous, Hello WordPress</title>
+      <link>http://grapefruitmoon.net/goodbye-posterous-hello-wordpress/</link>
+      <pubDate>Sat, 17 Mar 2012 21:22:30 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/goodbye-posterous-hello-wordpress/</guid>
+      <description>I&#39;ve been a Posterous user for over 3 years, having used them to host all my sparsely updated blogs. It came as a bit of a surprise this week when their founder Sachin Agarwal announced that the company had been bought by Twitter. From the press releases, the acquisition appears to be more about buying the people rather than the product. All good for the Posterous staff I think, I&#39;m pleased for them if it works out.</description>
+    </item>
+    
+    <item>
+      <title>I chat, I message</title>
+      <link>http://grapefruitmoon.net/i-chat-i-message/</link>
+      <pubDate>Tue, 21 Feb 2012 18:00:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/i-chat-i-message/</guid>
+      <description>Since I stopped using Windows as an OS for personal use, almost four years ago, I also gave up using IM chat programs. Back then, I was a fairly big user of MSN Messenger, but when I found the Mac version at that point to be flaky to say the least, I ditched it completely. And I didn&#39;t miss it at all. Apart from using Skype for remote work purposes, I&#39;ve shied away from almost all other chat programs.</description>
+    </item>
+    
+    <item>
+      <title>Kindling</title>
+      <link>http://grapefruitmoon.net/kindling/</link>
+      <pubDate>Sun, 02 Oct 2011 19:25:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/kindling/</guid>
+      <description>So Amazon announced their new Kindle range this week, which included the new Android-based tablet, the Kindle Fire. I really like the current Kindle device, but I’m not sure how I feel about the new products yet. It seems a touch half-baked to me, and there are some design decisions I really don’t understand.
+iPad Competitor In the non-techie media there has been much talk of how the Fire is a competitor to the iPad.</description>
+    </item>
+    
+    <item>
+      <title>Getting down with Markdown</title>
+      <link>http://grapefruitmoon.net/getting-down-with-markdown/</link>
+      <pubDate>Fri, 12 Aug 2011 22:24:34 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/getting-down-with-markdown/</guid>
+      <description>You know sometimes you keep hearing about something, about how great it is, yet for some reason, you decide to ignore it and not bother checking it out? Well that’s pretty much what I had been doing with Markdown till this week. Almost every text editor I looked at on the Mac and iOS app stores mentioned support for Markdown, tech guys I respect either wrote about it or talked about it in podcasts.</description>
+    </item>
+    
+    <item>
+      <title>Going Paperless</title>
+      <link>http://grapefruitmoon.net/going-paperless/</link>
+      <pubDate>Wed, 06 Jul 2011 22:02:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/going-paperless/</guid>
+      <description>I decided to try a small workflow experiment this week and try to go paperless both at work and at home. I&#39;m a big notetaker and scribbler, and I&#39;ve normally got two or three notepads on the go at the one time. Having purchased a Griffin stylusfor the iPad last week, it felt like a good time to try and ditch the paper and go digital.
+I started the experiment while working.</description>
+    </item>
+    
+    <item>
+      <title>Enough For Me</title>
+      <link>http://grapefruitmoon.net/enough-for-me/</link>
+      <pubDate>Fri, 01 Jul 2011 19:06:00 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/enough-for-me/</guid>
+      <description>Inspired by the Enoughpodcast and Minimal Macsite, both by Patrick Rhone, I&#39;ve been thinking about how little software I&#39;d need to do all the things I need to, both for work and leisure purposes. I&#39;ve been patiently waiting on the new Macbook Air refresh, as I&#39;m looking to replace my 15″ 2008 Macbook Pro. I&#39;ve still not decided if I&#39;m going 11″ or 13″, although the latter is looking more likely.</description>
+    </item>
+    
+  </channel>
+</rss>

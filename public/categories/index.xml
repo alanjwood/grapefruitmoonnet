@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/categories/</link>
+    <description>Recent content in Categories on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Apr 2018 22:45:11 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data</title>
+      <link>http://grapefruitmoon.net/categories/data/</link>
+      <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/categories/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL Server</title>
+      <link>http://grapefruitmoon.net/categories/sql-server/</link>
+      <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/categories/sql-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>http://grapefruitmoon.net/categories/tech/</link>
+      <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sports</title>
+      <link>http://grapefruitmoon.net/categories/sports/</link>
+      <pubDate>Wed, 01 Jun 2016 17:13:04 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/categories/sports/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

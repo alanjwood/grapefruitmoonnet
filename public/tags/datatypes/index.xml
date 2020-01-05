@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>datatypes on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/tags/datatypes/</link>
+    <description>Recent content in datatypes on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Sep 2009 12:47:40 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/tags/datatypes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSIS and Tinyint datatype</title>
+      <link>http://grapefruitmoon.net/ssis-and-tinyint-datatype/</link>
+      <pubDate>Tue, 29 Sep 2009 12:47:40 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/ssis-and-tinyint-datatype/</guid>
+      <description>I&#39;ve had a couple of issues recently with using the tinyint datatype in SSIS. In one case I have a Lookup Transform which joins to the incoming data flow path on a column defined as a tinyint in the database. The column metadata in the data flow is DT_I4, a four-byte signed integer. Dragging this across to the tinyint column in the Lookup gives me the following error:
+The following columns cannot be mapped: [DataFlowColumn, LookupColumn] One or more columns do not have supported data types, or their data types do not match.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/tags/data/</link>
+    <description>Recent content in data on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 May 2013 18:17:02 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Try R, a free course</title>
+      <link>http://grapefruitmoon.net/try-r-a-free-course/</link>
+      <pubDate>Mon, 13 May 2013 18:17:02 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/try-r-a-free-course/</guid>
+      <description>I&#39;ve been branching out a bit in my spare time with regards to other tools and languages for manipulating and analysing data. The R language has interested me for a while, and I came across this free tutorial which serves as a pretty good introduction to its basic usage and syntax. It does so in a rather nice interactive web interface. Highly recommended if you have a spare hour or two to go through the course.</description>
+    </item>
+    
+  </channel>
+</rss>

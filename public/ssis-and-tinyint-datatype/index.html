@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>SSIS and Tinyint datatype - Grapefruitmoon.net</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<meta property="og:title" content="SSIS and Tinyint datatype" />
+<meta property="og:description" content="I&#39;ve had a couple of issues recently with using the tinyint datatype in SSIS. In one case I have a Lookup Transform which joins to the incoming data flow path on a column defined as a tinyint in the database. The column metadata in the data flow is DT_I4, a four-byte signed integer. Dragging this across to the tinyint column in the Lookup gives me the following error:
+The following columns cannot be mapped: [DataFlowColumn, LookupColumn] One or more columns do not have supported data types, or their data types do not match." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://grapefruitmoon.net/ssis-and-tinyint-datatype/" />
+<meta property="article:published_time" content="2009-09-29T12:47:40+00:00" />
+<meta property="article:modified_time" content="2009-09-29T12:47:40+00:00" />
+
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="http://grapefruitmoon.net/css/style.css">
+	
+	<link rel="shortcut icon" href="http://grapefruitmoon.net/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-6816459-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="http://grapefruitmoon.net/" title="Grapefruitmoon.net" rel="home">
+				<div class="logo__title">Grapefruitmoon.net</div>
+				<div class="logo__tagline">Where I might talk about data, tech, beer, whisky, sports and other related nonsense.</div>
+			</a>
+		</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="http://grapefruitmoon.net/posts/">
+				
+				<span class="menu__text">Blog</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="http://grapefruitmoon.net/about/">
+				
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">SSIS and Tinyint datatype</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2009-09-29T12:47:40">September 29, 2009</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="http://grapefruitmoon.net/categories/sql-server/" rel="category">SQL Server</a>
+	</span>
+</div></div>
+		</header><div class="content post__content clearfix">
+			<p>I've had a couple of issues recently with using the tinyint datatype in SSIS. In one case I have a Lookup Transform which joins to the incoming data flow path on a column defined as a tinyint in the database. The column metadata in the data flow is DT_I4, a four-byte signed integer. Dragging this across to the tinyint column in the Lookup gives me the following error:</p>
+<pre><code>The following columns cannot be mapped:
+[DataFlowColumn, LookupColumn]
+One or more columns do not have supported data types, or their data types do not match.
+</code></pre><p>By process of elimination, I discovered the incoming column needs to be converted to a DT_UI1, a single-byte unsigned integer. One to bear in mind for the future!</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="http://grapefruitmoon.net/tags/datatypes/" rel="tag">datatypes</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="http://grapefruitmoon.net/tags/ssis/" rel="tag">ssis</a></li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Alan Wood avatar" src="http://grapefruitmoon.net/img/awfg1.jpg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Alan Wood</span>
+	</div>
+	<div class="authorbox__description">
+		Data nerd, musician, herbivore
+	</div>
+</div>
+
+<nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
+		<a class="post-nav__link" href="http://grapefruitmoon.net/sqlbits-iv/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">SQLBits IV</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next">
+		<a class="post-nav__link" href="http://grapefruitmoon.net/identify-the-t-sql-being-run-by-a-spid/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Identify the T-SQL being run by a SPID</p></a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 Grapefruitmoon.net.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="http://grapefruitmoon.net/js/menu.js"></script>
+</body>
+</html>

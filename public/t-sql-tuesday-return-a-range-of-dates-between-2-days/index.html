@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>T-SQL Tuesday: Return a range of dates between 2 days - Grapefruitmoon.net</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<meta property="og:title" content="T-SQL Tuesday: Return a range of dates between 2 days" />
+<meta property="og:description" content="Just after Adam Machanic announced the first of the T-SQL Tuesday blog events, I was asked a question about how to return a list of all the dates between two given days. I came across some good forum posts about how to do so, many of which utilised numbers tables. I wanted to avoid that (nothing against them, just wanted something that was stand-alone), and figured that a CTE would be the best way to go; in fact someone had posted such a method, a little of which I have used here (if I can find the post again I&#39;ll give them a mention in the comments!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://grapefruitmoon.net/t-sql-tuesday-return-a-range-of-dates-between-2-days/" />
+<meta property="article:published_time" content="2009-12-08T14:26:00+00:00" />
+<meta property="article:modified_time" content="2009-12-08T14:26:00+00:00" />
+
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="http://grapefruitmoon.net/css/style.css">
+	
+	<link rel="shortcut icon" href="http://grapefruitmoon.net/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-6816459-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="http://grapefruitmoon.net/" title="Grapefruitmoon.net" rel="home">
+				<div class="logo__title">Grapefruitmoon.net</div>
+				<div class="logo__tagline">Where I might talk about data, tech, beer, whisky, sports and other related nonsense.</div>
+			</a>
+		</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="http://grapefruitmoon.net/posts/">
+				
+				<span class="menu__text">Blog</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="http://grapefruitmoon.net/about/">
+				
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">T-SQL Tuesday: Return a range of dates between 2 days</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2009-12-08T14:26:00">December 08, 2009</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="http://grapefruitmoon.net/categories/sql-server/" rel="category">SQL Server</a>
+	</span>
+</div></div>
+		</header><div class="content post__content clearfix">
+			<p><img src="http://grapefruitmoon.net/img/wp-content/uploads/2009/12/results1.png" alt="results1"></p>
+<p>Just after Adam Machanic announced the first of the T-SQL Tuesday blog events, I was asked a question about how to return a list of all the dates between two given days.  I came across some good forum posts about how to do so, many of which utilised numbers tables.  I wanted to avoid that (nothing against them, just wanted something that was stand-alone), and figured that a CTE would be the best way to go; in fact someone had posted such a method, a little of which I have used here (if I can find the post again I'll give them a mention in the comments!).</p>
+<p>The following procedure takes 3 parameters: a StartDate, an EndDate and a bit flag to say if the range should be inclusive (that is, will it also return the StartDate and EndDate in the results), defaulted to 1.  A list of all the dates between the first two parameters will be returned.</p>
+<p>The maxrecursion option has been set to 3660, giving a maximum of ten years dates to return.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">create</span> <span style="color:#66d9ef">procedure</span> dbo.GetDateRange
+<span style="color:#f92672">@</span>StartDate datetime,<span style="color:#f92672">@</span>EndDate datetime,<span style="color:#f92672">@</span>Inclusive bit <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span><span style="color:#66d9ef">as</span>
+
+<span style="color:#66d9ef">set</span> nocount <span style="color:#66d9ef">on</span>;
+
+<span style="color:#66d9ef">declare</span> <span style="color:#f92672">@</span>DayDiff smallint;
+<span style="color:#66d9ef">set</span> <span style="color:#f92672">@</span>DayDiff <span style="color:#f92672">=</span> datediff(dd, <span style="color:#f92672">@</span>StartDate, <span style="color:#f92672">@</span>EndDate);
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">@</span>Inclusive <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span><span style="color:#66d9ef">set</span> <span style="color:#f92672">@</span>DayDiff <span style="color:#f92672">=</span> <span style="color:#f92672">@</span>DayDiff <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
+
+<span style="color:#66d9ef">with</span> cteRange (DateRange)
+<span style="color:#66d9ef">as</span> (<span style="color:#66d9ef">select</span> dateadd(dd, datediff(dd, <span style="color:#ae81ff">0</span>, <span style="color:#f92672">@</span>EndDate) <span style="color:#f92672">-</span> <span style="color:#f92672">@</span>DayDiff, <span style="color:#ae81ff">0</span>)
+  <span style="color:#66d9ef">union</span> allselect dateadd(dd, <span style="color:#ae81ff">1</span>, DateRange)
+  <span style="color:#66d9ef">from</span> cteRange
+  <span style="color:#66d9ef">where</span> dateadd(dd, <span style="color:#ae81ff">1</span>, DateRange) <span style="color:#f92672">&lt;</span> (<span style="color:#f92672">@</span>EndDate <span style="color:#f92672">+</span> <span style="color:#f92672">@</span>Inclusive)
+  )
+<span style="color:#66d9ef">select</span> DateRange
+<span style="color:#66d9ef">from</span> cteRangeoption (maxrecursion <span style="color:#ae81ff">3660</span>);
+<span style="color:#66d9ef">go</span>
+</code></pre></div><p>Run the procedure using the following code:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">exec</span> dbo.GetDateRange <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">2009-12-07</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">2009-12-12</span><span style="color:#e6db74">&#39;</span>
+</code></pre></div><p>and the results are as shown in the image at the top of the post.</p>
+<p>Hope some of you find this useful.  This post is part of <!-- raw HTML omitted -->Adam Machanic's T-SQL Tuesday<!-- raw HTML omitted -->.</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="http://grapefruitmoon.net/tags/dates/" rel="tag">Dates</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="http://grapefruitmoon.net/tags/tsql/" rel="tag">tsql</a></li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Alan Wood avatar" src="http://grapefruitmoon.net/img/awfg1.jpg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Alan Wood</span>
+	</div>
+	<div class="authorbox__description">
+		Data nerd, musician, herbivore
+	</div>
+</div>
+
+<nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
+		<a class="post-nav__link" href="http://grapefruitmoon.net/identify-the-t-sql-being-run-by-a-spid/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Identify the T-SQL being run by a SPID</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next">
+		<a class="post-nav__link" href="http://grapefruitmoon.net/ssis-2008-deployment-manifest-error/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">SSIS 2008 Deployment Manifest error</p></a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 Grapefruitmoon.net.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="http://grapefruitmoon.net/js/menu.js"></script>
+</body>
+</html>

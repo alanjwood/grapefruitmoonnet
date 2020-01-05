@@ -1,0 +1,62 @@
+baseURL = "http://grapefruitmoon.net/"
+languageCode = "en-us"
+title = "Grapefruitmoon.net"
+theme = "mainroad"
+languagecode = "en"
+
+paginate = 10
+canonifyurls = true
+googleAnalytics = "UA-6816459-1"
+
+pygmentsCodeFences = true
+
+[Author]
+  name = "Alan Wood"
+  bio = "Data nerd, musician, herbivore"
+  avatar = "/img/awfg1.jpg"
+
+[Params]
+  author = "Alan Wood"
+  info = "Data Consultant"
+  keywords = "developer, bi, powerbi"
+  mainSections = "posts"
+  subtitle = "Where I might talk about data, tech, beer, whisky, sports and other related nonsense." 
+  description = "Alan Wood's blog about everything" # Description of your site
+  opengraph = true
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true
+  post_navigation = true
+  post_meta = ["date", "categories"] # Order of post meta information
+
+ # Social links
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 1
+    url = "https://twitter.com/grapefruitmoon/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+
+
+
+# [Params]
+
+
+# [Params.sidebar]
+#   home = "right"   # Configure layout for home page
+#   list = "right"   # Configure layout for list pages
+#   single = "right" # Configure layout for single pages
+#   # Enable widgets in given order
+#   widgets = ["search", "recent", "categories", "taglist"]
+
+# [Params.widgets]
+#   recent_num = 5 # Set the number of articles in the "Recent articles" widget
+#   tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)

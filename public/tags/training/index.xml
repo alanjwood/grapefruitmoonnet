@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>training on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/tags/training/</link>
+    <description>Recent content in training on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Mar 2009 20:51:18 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SQLBits IV</title>
+      <link>http://grapefruitmoon.net/sqlbits-iv/</link>
+      <pubDate>Mon, 30 Mar 2009 20:51:18 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/sqlbits-iv/</guid>
+      <description>I travelled down to Manchester last weekend to go to the SQLBits conference, something that I&#39;d heard a lot of good things about. I&#39;m very glad I went, as it was an extremely useful and informative event. And free! 🙂
+With 28 sessions being given by 28 speakers, there was plenty of choice on what to go to…possibly too much as I missed out on a few that I would have really liked to have seen.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Excel connections in SSIS 64-bit - Grapefruitmoon.net</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<meta property="og:title" content="Excel connections in SSIS 64-bit" />
+<meta property="og:description" content="This is a new one on me&hellip;when running SSIS in a 64-bit environment, Excel connections (and Access as well I presume) do not work, as the OLE DB Provider for Jet is not supported.
+At a current client, they are moving the server platform from Windows 2003 Server to Windows 2008 Server 64-bit. I had developed some ETL packages for them, pulling data from Excel and CSV sources. The packages get executed when the files have been unzipped and downloaded to a specified folder." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://grapefruitmoon.net/excel-connections-in-ssis-64-bit/" />
+<meta property="article:published_time" content="2009-02-04T14:29:02+00:00" />
+<meta property="article:modified_time" content="2009-02-04T14:29:02+00:00" />
+
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="http://grapefruitmoon.net/css/style.css">
+	
+	<link rel="shortcut icon" href="http://grapefruitmoon.net/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-6816459-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="http://grapefruitmoon.net/" title="Grapefruitmoon.net" rel="home">
+				<div class="logo__title">Grapefruitmoon.net</div>
+				<div class="logo__tagline">Where I might talk about data, tech, beer, whisky, sports and other related nonsense.</div>
+			</a>
+		</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="http://grapefruitmoon.net/posts/">
+				
+				<span class="menu__text">Blog</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="http://grapefruitmoon.net/about/">
+				
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Excel connections in SSIS 64-bit</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2009-02-04T14:29:02">February 04, 2009</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="http://grapefruitmoon.net/categories/sql-server/" rel="category">SQL Server</a>
+	</span>
+</div></div>
+		</header><div class="content post__content clearfix">
+			<p>This is a new one on me&hellip;when running SSIS in a 64-bit environment, Excel connections (and Access as well I presume) do not work, as the OLE DB Provider for Jet is not supported.</p>
+<p>At a current client, they are moving the server platform from Windows 2003 Server to Windows 2008 Server 64-bit. I had developed some ETL packages for them, pulling data from Excel and CSV sources. The packages get executed when the files have been unzipped and downloaded to a specified folder. This is done via simple batch files, which are along the lines of the following:</p>
+<p><code>dtexec /f &quot;F:SSIS PackagesReportingImportClientCSV.dtsx&quot;</code></p>
+<p>When I moved all the packages to Windows 2008, the CSV packages ran no problem. But when I tried to execute one that imported from Excel, I received the following error:</p>
+<p><code>Code: 0xC00F9304</code></p>
+<p><code> Source: ImportClientXLS Connection manager &quot;Excel Connection Manager&quot;</code></p>
+<p><code> Description: SSIS Error Code DTS_E_OLEDB_EXCEL_NOT_SUPPORTED: The Excel Connection Manager is not supported in the 64-bit version of SSIS, as no OLE DB provider is available.</code></p>
+<p>In order to use the OLE DB for Jet providers, the packages must be run in 32-bit mode. This is done by using the x86 version of dtexec and specifying the &ldquo;/X86&rdquo; switch. I amended the batch file in question to look similar to this:</p>
+<p><code>&quot;C:Program Files (x86)Microsoft SQL Server100DTSBinndtexec.exe&quot; /f &quot;F:SSIS PackagesReportingImportClientXLS.dtsx&quot; /X86</code></p>
+<p>Voila! The package ran successfully.</p>
+<p>This link from Microsoft details the limitations when running SSIS in 64-bit environments: <a href="http://msdn.microsoft.com/en-us/library/ms141766.aspx">64-bit Considerations for Integration Services</a></p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="http://grapefruitmoon.net/tags/64-bit/" rel="tag">64-bit</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="http://grapefruitmoon.net/tags/excel/" rel="tag">excel</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="http://grapefruitmoon.net/tags/ssis/" rel="tag">ssis</a></li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Alan Wood avatar" src="http://grapefruitmoon.net/img/awfg1.jpg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Alan Wood</span>
+	</div>
+	<div class="authorbox__description">
+		Data nerd, musician, herbivore
+	</div>
+</div>
+
+<nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
+		<a class="post-nav__link" href="http://grapefruitmoon.net/ssrs-2008-using-the-top-filter-in-a-chart/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">SSRS 2008: Using the TOP filter in a chart</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next">
+		<a class="post-nav__link" href="http://grapefruitmoon.net/full-sql-server-in-the-cloud/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">“Full” SQL Server in the cloud</p></a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 Grapefruitmoon.net.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="http://grapefruitmoon.net/js/menu.js"></script>
+</body>
+</html>

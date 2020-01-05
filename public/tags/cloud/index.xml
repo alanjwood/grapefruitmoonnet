@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/tags/cloud/</link>
+    <description>Recent content in cloud on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Mar 2009 09:32:50 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SDS Q&amp;A</title>
+      <link>http://grapefruitmoon.net/sds-qa/</link>
+      <pubDate>Fri, 13 Mar 2009 09:32:50 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/sds-qa/</guid>
+      <description>Following up from yesterday&#39;s post about SDS, there is now a Q&amp;amp;A about the announced changes on the SDS Team Blog:
+SDS Q&amp;amp;A</description>
+    </item>
+    
+    <item>
+      <title>“Full” SQL Server in the cloud</title>
+      <link>http://grapefruitmoon.net/full-sql-server-in-the-cloud/</link>
+      <pubDate>Thu, 12 Mar 2009 09:29:19 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/full-sql-server-in-the-cloud/</guid>
+      <description>Now this is a bit interesting! On Tuesday, the SQL Data Services team announced that SDS would offer full relational database capabilities. This has really perked my interest now, as I was never fully comfortable with the ACE (Authority, Container, Entity) data model. Now that SDS is going to support Stored Procedures, Views, Indexes and even Triggers, I think this is a product to get excited about.
+Of course, the announcement means I still have more questions than answers!</description>
+    </item>
+    
+  </channel>
+</rss>

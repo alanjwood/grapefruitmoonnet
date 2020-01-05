@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>collation on Grapefruitmoon.net</title>
+    <link>http://grapefruitmoon.net/tags/collation/</link>
+    <description>Recent content in collation on Grapefruitmoon.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jun 2012 18:00:17 +0000</lastBuildDate>
+    
+	<atom:link href="http://grapefruitmoon.net/tags/collation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Case-sensitivity in a T-SQL WHERE clause</title>
+      <link>http://grapefruitmoon.net/case-sensitivity-in-a-t-sql-where-clause/</link>
+      <pubDate>Fri, 22 Jun 2012 18:00:17 +0000</pubDate>
+      
+      <guid>http://grapefruitmoon.net/case-sensitivity-in-a-t-sql-where-clause/</guid>
+      <description>I was asked today if it was possible to use a case-sensitive LIKE statement in a WHERE clause. The default SQL Server collation is case-insensitive, but the collation used can be specified in a query. To return the collation of the current database:
+SELECT DATABASEPROPERTYEX(DB_NAME(),&amp;#39;Collation&amp;#39;); In my case, this returned Latin1_General_CI_AS. The case-sensitive version of this is Latin1_General_CS_AS. To use this collation for a column, specify it after the column using the COLLATE statement.</description>
+    </item>
+    
+  </channel>
+</rss>
