@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogs on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/blogs/</link>
+    <link>https://grapefruitmoon.net/tags/blogs/</link>
     <description>Recent content in blogs on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Mar 2012 21:22:30 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Goodbye Posterous, Hello WordPress</title>
-      <link>http://grapefruitmoon.net/goodbye-posterous-hello-wordpress/</link>
+      <link>https://grapefruitmoon.net/goodbye-posterous-hello-wordpress/</link>
       <pubDate>Sat, 17 Mar 2012 21:22:30 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/goodbye-posterous-hello-wordpress/</guid>
+      <guid>https://grapefruitmoon.net/goodbye-posterous-hello-wordpress/</guid>
       <description>I&#39;ve been a Posterous user for over 3 years, having used them to host all my sparsely updated blogs. It came as a bit of a surprise this week when their founder Sachin Agarwal announced that the company had been bought by Twitter. From the press releases, the acquisition appears to be more about buying the people rather than the product. All good for the Posterous staff I think, I&#39;m pleased for them if it works out.</description>
     </item>
     

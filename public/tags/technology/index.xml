@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>technology on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/technology/</link>
+    <link>https://grapefruitmoon.net/tags/technology/</link>
     <description>Recent content in technology on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Oct 2011 19:25:00 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kindling</title>
-      <link>http://grapefruitmoon.net/kindling/</link>
+      <link>https://grapefruitmoon.net/kindling/</link>
       <pubDate>Sun, 02 Oct 2011 19:25:00 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/kindling/</guid>
+      <guid>https://grapefruitmoon.net/kindling/</guid>
       <description>So Amazon announced their new Kindle range this week, which included the new Android-based tablet, the Kindle Fire. I really like the current Kindle device, but I’m not sure how I feel about the new products yet. It seems a touch half-baked to me, and there are some design decisions I really don’t understand.
 iPad Competitor In the non-techie media there has been much talk of how the Fire is a competitor to the iPad.</description>
     </item>

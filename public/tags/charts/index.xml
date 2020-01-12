@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>charts on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/charts/</link>
+    <link>https://grapefruitmoon.net/tags/charts/</link>
     <description>Recent content in charts on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Jan 2009 14:46:43 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/charts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/charts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SSRS 2008: Using the TOP filter in a chart</title>
-      <link>http://grapefruitmoon.net/ssrs-2008-using-the-top-filter-in-a-chart/</link>
+      <link>https://grapefruitmoon.net/ssrs-2008-using-the-top-filter-in-a-chart/</link>
       <pubDate>Wed, 21 Jan 2009 14:46:43 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/ssrs-2008-using-the-top-filter-in-a-chart/</guid>
+      <guid>https://grapefruitmoon.net/ssrs-2008-using-the-top-filter-in-a-chart/</guid>
       <description>I found an interesting forum post over at SQLTeam this morning, and decided to have a go at coming up with a solution.
 Filters are quite commonly used in Tablix reports to show only the top n rows from a dataset. This is easily done by using the Top N operator in the Filters tab of the Tablix, and choosing the column in the Expression drop down.
 In the forum post however, the original poster was wanting to show the top n values in a chart.</description>

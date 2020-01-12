@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>security on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/security/</link>
+    <link>https://grapefruitmoon.net/tags/security/</link>
     <description>Recent content in security on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Jan 2014 11:58:22 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/security/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Execute SSIS package as a Service Account</title>
-      <link>http://grapefruitmoon.net/execute-ssis-package-as-a-service-account/</link>
+      <link>https://grapefruitmoon.net/execute-ssis-package-as-a-service-account/</link>
       <pubDate>Thu, 30 Jan 2014 11:58:22 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/execute-ssis-package-as-a-service-account/</guid>
+      <guid>https://grapefruitmoon.net/execute-ssis-package-as-a-service-account/</guid>
       <description>At my current client, I have a very specific set of parameters to work within regarding security. Chiefly, I need read permissions on the underlying database for a Microsoft Dynamics AX 2012 R2 installation. I have a series of SSIS packages that extract data from AX on a daily basis, executed from SQL Server Agent. The AX database, however, is hosted on a remote server and neither myself or the client team have permissions directly on this box.</description>
     </item>
     

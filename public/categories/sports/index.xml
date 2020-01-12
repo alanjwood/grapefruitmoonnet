@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sports on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/categories/sports/</link>
+    <link>https://grapefruitmoon.net/categories/sports/</link>
     <description>Recent content in Sports on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jun 2016 17:13:04 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/categories/sports/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/categories/sports/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Women’s Euro Qualifiers – stats in Power BI</title>
-      <link>http://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/</link>
+      <link>https://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/</link>
       <pubDate>Wed, 01 Jun 2016 17:13:04 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/</guid>
+      <guid>https://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/</guid>
       <description>With the all-important Women&#39;s Euro Qualifier between Scotland and Iceland coming up on Friday, I thought it would be a good time to grab some of the data from the UEFA website and have a play with it in Power BI. I&#39;ve got the data for all teams imported, the report below is filtered to show the key statistics for the two teams of interest. When I get a bit more time to spare, I&#39;ll detail the PowerQuery steps I took to get and transform the data.</description>
     </item>
     

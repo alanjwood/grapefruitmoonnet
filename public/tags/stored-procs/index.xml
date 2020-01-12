@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stored procs on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/stored-procs/</link>
+    <link>https://grapefruitmoon.net/tags/stored-procs/</link>
     <description>Recent content in stored procs on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jan 2009 15:25:00 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/stored-procs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/stored-procs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quick tip: Search for a term in a Stored Procedure</title>
-      <link>http://grapefruitmoon.net/quick-tip-search-for-a-term-in-a-stored-procedure/</link>
+      <link>https://grapefruitmoon.net/quick-tip-search-for-a-term-in-a-stored-procedure/</link>
       <pubDate>Tue, 13 Jan 2009 15:25:00 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/quick-tip-search-for-a-term-in-a-stored-procedure/</guid>
+      <guid>https://grapefruitmoon.net/quick-tip-search-for-a-term-in-a-stored-procedure/</guid>
       <description>Need to find out if a term is referenced in any stored procedures in your database? Use the following T-SQL statement&amp;hellip;
 select name, definition from sys.procedures p inner join sys.sql_modules m on p.object_id = m.object_id where m.definition like &amp;#39;%search term%&amp;#39;; This will work in SQL Server 2005 and 2008.</description>
     </item>

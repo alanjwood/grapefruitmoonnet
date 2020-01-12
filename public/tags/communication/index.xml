@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>communication on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/communication/</link>
+    <link>https://grapefruitmoon.net/tags/communication/</link>
     <description>Recent content in communication on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Feb 2012 18:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/communication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>I chat, I message</title>
-      <link>http://grapefruitmoon.net/i-chat-i-message/</link>
+      <link>https://grapefruitmoon.net/i-chat-i-message/</link>
       <pubDate>Tue, 21 Feb 2012 18:00:00 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/i-chat-i-message/</guid>
+      <guid>https://grapefruitmoon.net/i-chat-i-message/</guid>
       <description>Since I stopped using Windows as an OS for personal use, almost four years ago, I also gave up using IM chat programs. Back then, I was a fairly big user of MSN Messenger, but when I found the Mac version at that point to be flaky to say the least, I ditched it completely. And I didn&#39;t miss it at all. Apart from using Skype for remote work purposes, I&#39;ve shied away from almost all other chat programs.</description>
     </item>
     

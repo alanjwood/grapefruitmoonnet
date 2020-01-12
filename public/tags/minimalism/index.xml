@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>minimalism on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/minimalism/</link>
+    <link>https://grapefruitmoon.net/tags/minimalism/</link>
     <description>Recent content in minimalism on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Jul 2011 19:06:00 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/minimalism/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/minimalism/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Enough For Me</title>
-      <link>http://grapefruitmoon.net/enough-for-me/</link>
+      <link>https://grapefruitmoon.net/enough-for-me/</link>
       <pubDate>Fri, 01 Jul 2011 19:06:00 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/enough-for-me/</guid>
+      <guid>https://grapefruitmoon.net/enough-for-me/</guid>
       <description>Inspired by the Enoughpodcast and Minimal Macsite, both by Patrick Rhone, I&#39;ve been thinking about how little software I&#39;d need to do all the things I need to, both for work and leisure purposes. I&#39;ve been patiently waiting on the new Macbook Air refresh, as I&#39;m looking to replace my 15″ 2008 Macbook Pro. I&#39;ve still not decided if I&#39;m going 11″ or 13″, although the latter is looking more likely.</description>
     </item>
     

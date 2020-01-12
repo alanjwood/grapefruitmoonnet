@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>notes on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/notes/</link>
+    <link>https://grapefruitmoon.net/tags/notes/</link>
     <description>Recent content in notes on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Jul 2011 22:02:00 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Going Paperless</title>
-      <link>http://grapefruitmoon.net/going-paperless/</link>
+      <link>https://grapefruitmoon.net/going-paperless/</link>
       <pubDate>Wed, 06 Jul 2011 22:02:00 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/going-paperless/</guid>
+      <guid>https://grapefruitmoon.net/going-paperless/</guid>
       <description>I decided to try a small workflow experiment this week and try to go paperless both at work and at home. I&#39;m a big notetaker and scribbler, and I&#39;ve normally got two or three notepads on the go at the one time. Having purchased a Griffin stylusfor the iPad last week, it felt like a good time to try and ditch the paper and go digital.
 I started the experiment while working.</description>
     </item>

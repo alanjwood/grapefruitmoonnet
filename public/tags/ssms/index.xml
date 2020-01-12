@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSMS on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/ssms/</link>
+    <link>https://grapefruitmoon.net/tags/ssms/</link>
     <description>Recent content in SSMS on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Jan 2009 13:59:00 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/ssms/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/ssms/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Running scripts on multiple servers in SSMS 2008</title>
-      <link>http://grapefruitmoon.net/running-scripts-on-multiple-servers-in-ssms-2008/</link>
+      <link>https://grapefruitmoon.net/running-scripts-on-multiple-servers-in-ssms-2008/</link>
       <pubDate>Mon, 12 Jan 2009 13:59:00 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/running-scripts-on-multiple-servers-in-ssms-2008/</guid>
+      <guid>https://grapefruitmoon.net/running-scripts-on-multiple-servers-in-ssms-2008/</guid>
       <description>SQL Server Management Studio 2008 has a new feature, the ability to run a script on multiple servers at once. To set this up, the servers need to be registered to a Server Group in the Registered Servers window (see image). Right-clicking on the Server Group and selecting New Query creates a query window which is connected to the servers in the group (as long as the connection information is correct and the passwords, if using SQL Server Authentication, are saved).</description>
     </item>
     

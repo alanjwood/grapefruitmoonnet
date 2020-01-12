@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>power bi on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/power-bi/</link>
+    <link>https://grapefruitmoon.net/tags/power-bi/</link>
     <description>Recent content in power bi on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Apr 2018 22:45:11 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/power-bi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/power-bi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Return and Recap</title>
-      <link>http://grapefruitmoon.net/return-and-recap/</link>
+      <link>https://grapefruitmoon.net/return-and-recap/</link>
       <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/return-and-recap/</guid>
+      <guid>https://grapefruitmoon.net/return-and-recap/</guid>
       <description>So I&#39;ve been meaning to get back to this blog for some time, and just…well I just haven&#39;t. Anyway, here we are, so it&#39;s time for a quick recap of what I&#39;ve been up to technically the past couple of years. (Quick because I&#39;d written a long version and MarsEdit lost the draft…said software is now uninstalled! What follows is the very brief re-write).
 Education, education, education
 Learning has been my thing.</description>
@@ -24,19 +24,19 @@ Learning has been my thing.</description>
     
     <item>
       <title>Women’s Euro Qualifiers – stats in Power BI</title>
-      <link>http://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/</link>
+      <link>https://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/</link>
       <pubDate>Wed, 01 Jun 2016 17:13:04 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/</guid>
+      <guid>https://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/</guid>
       <description>With the all-important Women&#39;s Euro Qualifier between Scotland and Iceland coming up on Friday, I thought it would be a good time to grab some of the data from the UEFA website and have a play with it in Power BI. I&#39;ve got the data for all teams imported, the report below is filtered to show the key statistics for the two teams of interest. When I get a bit more time to spare, I&#39;ll detail the PowerQuery steps I took to get and transform the data.</description>
     </item>
     
     <item>
       <title>Analysing Football Data in Power BI</title>
-      <link>http://grapefruitmoon.net/analysing-football-data-in-power-bi/</link>
+      <link>https://grapefruitmoon.net/analysing-football-data-in-power-bi/</link>
       <pubDate>Thu, 17 Mar 2016 17:08:54 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/analysing-football-data-in-power-bi/</guid>
+      <guid>https://grapefruitmoon.net/analysing-football-data-in-power-bi/</guid>
       <description>Two passions of mine that go hand in hand are sports and data. Fans nowadays can access a whole host of statistics for every sport imaginable. This data can be used for any number of reasons, including for gambling purposes and to help win fantasy leagues. Most premier sports teams now employ data analysts to look for something that will give them an edge and an advantage over their opponents. (On a related note, I&#39;m currently reading Big Data Baseball by Travis Sawchik - a really interesting insight into how the Pittsburgh Pirates used previously untapped data to improve their fortunes).</description>
     </item>
     

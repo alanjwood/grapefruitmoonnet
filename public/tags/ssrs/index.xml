@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSRS on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/ssrs/</link>
+    <link>https://grapefruitmoon.net/tags/ssrs/</link>
     <description>Recent content in SSRS on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Jan 2009 14:46:43 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/ssrs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/ssrs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SSRS 2008: Using the TOP filter in a chart</title>
-      <link>http://grapefruitmoon.net/ssrs-2008-using-the-top-filter-in-a-chart/</link>
+      <link>https://grapefruitmoon.net/ssrs-2008-using-the-top-filter-in-a-chart/</link>
       <pubDate>Wed, 21 Jan 2009 14:46:43 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/ssrs-2008-using-the-top-filter-in-a-chart/</guid>
+      <guid>https://grapefruitmoon.net/ssrs-2008-using-the-top-filter-in-a-chart/</guid>
       <description>I found an interesting forum post over at SQLTeam this morning, and decided to have a go at coming up with a solution.
 Filters are quite commonly used in Tablix reports to show only the top n rows from a dataset. This is easily done by using the Top N operator in the Filters tab of the Tablix, and choosing the column in the Expression drop down.
 In the forum post however, the original poster was wanting to show the top n values in a chart.</description>
@@ -24,19 +24,19 @@ In the forum post however, the original poster was wanting to show the top n val
     
     <item>
       <title>Column headings do not repeat in SSRS 2008</title>
-      <link>http://grapefruitmoon.net/column-headings-do-not-repeat-in-ssrs-2008/</link>
+      <link>https://grapefruitmoon.net/column-headings-do-not-repeat-in-ssrs-2008/</link>
       <pubDate>Wed, 07 Jan 2009 15:18:00 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/column-headings-do-not-repeat-in-ssrs-2008/</guid>
+      <guid>https://grapefruitmoon.net/column-headings-do-not-repeat-in-ssrs-2008/</guid>
       <description>I&#39;ve just stumbled upon an odd issue with the Tablix control in SSRS 2008. I deployed a report on a server a few weeks ago and it is now reporting on enough data to make it span multiple pages. I wanted the column headings to appear on all pages, not just the first. However, when I set the RepeatColumnHeaders property on the Tablix to be true, the headings still did not appear on the next page.</description>
     </item>
     
     <item>
       <title>Formatting Dates in SSRS</title>
-      <link>http://grapefruitmoon.net/formatting-dates-in-ssrs/</link>
+      <link>https://grapefruitmoon.net/formatting-dates-in-ssrs/</link>
       <pubDate>Wed, 07 Jan 2009 12:19:00 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/formatting-dates-in-ssrs/</guid>
+      <guid>https://grapefruitmoon.net/formatting-dates-in-ssrs/</guid>
       <description>In Reporting Services, formatting dates can become a headache for the developer, often due to differing regional settings on servers, development boxes etc. Therefore I&#39;ve found it much more useful to force the report to use a particular format, rather than allow the server settings to decide for me. Previously I would have used FormatDateTime in the expression, as shown here:
 =FormatDateTime(Fields!DateStamp.Value, DateFormat.ShortDate)
 Depending on the regional settings, this could return either 12/3/2008 or 3/12/2008.</description>

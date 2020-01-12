@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>biml on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/biml/</link>
+    <link>https://grapefruitmoon.net/tags/biml/</link>
     <description>Recent content in biml on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Aug 2014 15:15:14 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/biml/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/biml/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SSIS – Change the Protection Level for all Packages in a Project</title>
-      <link>http://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</link>
+      <link>https://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</link>
       <pubDate>Mon, 04 Aug 2014 15:15:14 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</guid>
+      <guid>https://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</guid>
       <description>Here&#39;s a quick one I found this morning while fixing an execution issue with one of my SSIS packages. I needed to change the Protection Level of all the packages in a project from Encrypt With User Key to Don&#39;t Save Sensitive. The project contains over 30 packages, and I didn&#39;t really fancy opening each one, navigating to the properties and amending the Protection Level for each one - that&#39;s too time-consuming and frankly, boring.</description>
     </item>
     

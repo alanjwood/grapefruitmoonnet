@@ -11,7 +11,7 @@
 <meta property="og:description" content="Here&#39;s a quick how-to post, a little work-around for an issue with writing to Excel from SSIS.
 I&#39;ve been asked a few times how to use SSIS to delete data from an Excel spreadsheet, then write data into that blank spreadsheet, while maintaining the column headers in the first row. There is no particularly straightforward way of doing so in SSIS, as attempting a delete statement on the Excel sheet will either remove the data in all rows (including the header) or throw an error as the DELETE statement is not supported." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://grapefruitmoon.net/deleting-from-excel-in-ssis-a-workaround/" />
+<meta property="og:url" content="https://grapefruitmoon.net/deleting-from-excel-in-ssis-a-workaround/" />
 <meta property="article:published_time" content="2011-05-05T07:03:00+00:00" />
 <meta property="article:modified_time" content="2011-05-05T07:03:00+00:00" />
 
@@ -19,9 +19,9 @@ I&#39;ve been asked a few times how to use SSIS to delete data from an Excel spr
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
-	<link rel="stylesheet" href="http://grapefruitmoon.net/css/style.css">
+	<link rel="stylesheet" href="https://grapefruitmoon.net/css/style.css">
 	
-	<link rel="shortcut icon" href="http://grapefruitmoon.net/favicon.ico">
+	<link rel="shortcut icon" href="https://grapefruitmoon.net/favicon.ico">
 		
 <script type="application/javascript">
 var doNotTrack = false;
@@ -40,9 +40,9 @@ if (!doNotTrack) {
 		<header class="header">
 	<div class="container">
 		<div class="logo">
-			<a class="logo__link" href="http://grapefruitmoon.net/" title="Grapefruitmoon.net" rel="home">
+			<a class="logo__link" href="https://grapefruitmoon.net/" title="Grapefruitmoon.net" rel="home">
 				<div class="logo__title">Grapefruitmoon.net</div>
-				<div class="logo__tagline">Where I might talk about data, tech, beer, whisky, sports and other related nonsense.</div>
+				<div class="logo__tagline">Where I might talk about data, tech, music, sports and other related nonsense.</div>
 			</a>
 		</div>
 		
@@ -52,14 +52,14 @@ if (!doNotTrack) {
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			<a class="menu__link" href="http://grapefruitmoon.net/posts/">
+			<a class="menu__link" href="https://grapefruitmoon.net/posts/">
 				
 				<span class="menu__text">Blog</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="http://grapefruitmoon.net/about/">
+			<a class="menu__link" href="https://grapefruitmoon.net/about/">
 				
 				<span class="menu__text">About</span>
 				
@@ -85,7 +85,7 @@ if (!doNotTrack) {
 
 <div class="meta__item-categories meta__item">
 	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="http://grapefruitmoon.net/categories/sql-server/" rel="category">SQL Server</a>
+	<span class="meta__text"><a class="meta__link" href="https://grapefruitmoon.net/categories/sql-server/" rel="category">SQL Server</a>
 	</span>
 </div></div>
 		</header><div class="content post__content clearfix">
@@ -104,12 +104,12 @@ if (!doNotTrack) {
 </li>
 </ol>
 <p>In order to do this, start by creating the Data Flow for step 3 and ensure that this works as expected (Figure 1 is a simple example).  This will create the XLS that will be written to.  Now we have the structure, we can use this to re-create the XLS using a SQL statement.  To do so, drop an Excel Source onto the flow (pointing to the destination file) and then an Excel Destination, and link the output from source to destination.  Open the Excel Destination and click the New button next to ‘Name of the Excel sheet&rsquo; – this will pop up a window with the CREATE TABLE statement that will be used in step 2.  Copy this and delete both the Excel Source and Destinations as they have served their purpose for this exercise.</p>
-<p><img src="http://grapefruitmoon.net/img/wp-content/uploads/2011/05/figure1-scaled50011-194x300.png" alt="Figure1"></p>
+<p><img src="https://grapefruitmoon.net/img/wp-content/uploads/2011/05/figure1-scaled50011-194x300.png" alt="Figure1"></p>
 <p>Figure 1</p>
 <p>On the Control Flow, add an Execute SQL Task, with the ConnectionType set to Excel, and the Connection set to the destination Excel connection manager.  Paste in the the CREATE TABLE script from the previous step into the SQL Statement property value.  This will create the XLS at run time.</p>
 <p>Next, add a File System Task, with an Operation of Delete File and the Source Connection set to a new File Connection Manager, also pointing to the destination XLS.</p>
 <p>Finally, set up the Control Flow to execute the delete, then execute the CREATE TABLE, then perform the Data Flow, as shown in Figure 2.</p>
-<p><img src="http://grapefruitmoon.net/img/wp-content/uploads/2011/05/figure2-scaled5002.png" alt="Figure2"></p>
+<p><img src="https://grapefruitmoon.net/img/wp-content/uploads/2011/05/figure2-scaled5002.png" alt="Figure2"></p>
 <p>Figure 2</p>
 <p>One issue I found with this method: the Execute SQL Task connected to an Excel Connection Manager did not work correctly if the Excel version was Microsoft Excel 2007 (.xlsx extension).  Changing this to Excel 97-2003 (.xls) resolved this issue.</p>
 
@@ -119,8 +119,8 @@ if (!doNotTrack) {
 <div class="post__tags tags clearfix">
 	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link btn" href="http://grapefruitmoon.net/tags/excel/" rel="tag">excel</a></li>
-		<li class="tags__item"><a class="tags__link btn" href="http://grapefruitmoon.net/tags/ssis/" rel="tag">ssis</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="https://grapefruitmoon.net/tags/excel/" rel="tag">excel</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="https://grapefruitmoon.net/tags/ssis/" rel="tag">ssis</a></li>
 	</ul>
 </div>
 		</footer>
@@ -129,7 +129,7 @@ if (!doNotTrack) {
 
 <div class="authorbox clearfix">
 	<figure class="authorbox__avatar">
-		<img alt="Alan Wood avatar" src="http://grapefruitmoon.net/img/awfg1.jpg" class="avatar" height="90" width="90">
+		<img alt="Alan Wood avatar" src="https://grapefruitmoon.net/img/awfg1.jpg" class="avatar" height="90" width="90">
 	</figure>
 	<div class="authorbox__header">
 		<span class="authorbox__name">About Alan Wood</span>
@@ -141,10 +141,10 @@ if (!doNotTrack) {
 
 <nav class="post-nav flex">
 	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="http://grapefruitmoon.net/ssis-2008-deployment-manifest-error/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">SSIS 2008 Deployment Manifest error</p></a>
+		<a class="post-nav__link" href="https://grapefruitmoon.net/ssis-2008-deployment-manifest-error/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">SSIS 2008 Deployment Manifest error</p></a>
 	</div>
 	<div class="post-nav__item post-nav__item--next">
-		<a class="post-nav__link" href="http://grapefruitmoon.net/enough-for-me/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Enough For Me</p></a>
+		<a class="post-nav__link" href="https://grapefruitmoon.net/enough-for-me/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Enough For Me</p></a>
 	</div>
 </nav>
 
@@ -162,6 +162,6 @@ if (!doNotTrack) {
 	</div>
 </footer>
 	</div>
-<script async defer src="http://grapefruitmoon.net/js/menu.js"></script>
+<script async defer src="https://grapefruitmoon.net/js/menu.js"></script>
 </body>
 </html>

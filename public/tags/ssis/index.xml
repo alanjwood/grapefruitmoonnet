@@ -2,68 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ssis on Grapefruitmoon.net</title>
-    <link>http://grapefruitmoon.net/tags/ssis/</link>
+    <link>https://grapefruitmoon.net/tags/ssis/</link>
     <description>Recent content in ssis on Grapefruitmoon.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Aug 2014 15:15:14 +0000</lastBuildDate>
     
-	<atom:link href="http://grapefruitmoon.net/tags/ssis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://grapefruitmoon.net/tags/ssis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SSIS – Change the Protection Level for all Packages in a Project</title>
-      <link>http://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</link>
+      <link>https://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</link>
       <pubDate>Mon, 04 Aug 2014 15:15:14 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</guid>
+      <guid>https://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</guid>
       <description>Here&#39;s a quick one I found this morning while fixing an execution issue with one of my SSIS packages. I needed to change the Protection Level of all the packages in a project from Encrypt With User Key to Don&#39;t Save Sensitive. The project contains over 30 packages, and I didn&#39;t really fancy opening each one, navigating to the properties and amending the Protection Level for each one - that&#39;s too time-consuming and frankly, boring.</description>
     </item>
     
     <item>
       <title>Execute SSIS package as a Service Account</title>
-      <link>http://grapefruitmoon.net/execute-ssis-package-as-a-service-account/</link>
+      <link>https://grapefruitmoon.net/execute-ssis-package-as-a-service-account/</link>
       <pubDate>Thu, 30 Jan 2014 11:58:22 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/execute-ssis-package-as-a-service-account/</guid>
+      <guid>https://grapefruitmoon.net/execute-ssis-package-as-a-service-account/</guid>
       <description>At my current client, I have a very specific set of parameters to work within regarding security. Chiefly, I need read permissions on the underlying database for a Microsoft Dynamics AX 2012 R2 installation. I have a series of SSIS packages that extract data from AX on a daily basis, executed from SQL Server Agent. The AX database, however, is hosted on a remote server and neither myself or the client team have permissions directly on this box.</description>
     </item>
     
     <item>
       <title>Powershell Deployment Script Update</title>
-      <link>http://grapefruitmoon.net/powershell-deployment-script-update/</link>
+      <link>https://grapefruitmoon.net/powershell-deployment-script-update/</link>
       <pubDate>Fri, 19 Aug 2011 17:26:22 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/powershell-deployment-script-update/</guid>
+      <guid>https://grapefruitmoon.net/powershell-deployment-script-update/</guid>
       <description>Since last weeks post on automated DB and ETL deployment builds with Powershell, I’ve made a couple of small but useful changes to the Powershell script.
 The distinct parts of the script are now encapsulated in parameterised functions. The end goal of this is to be able to turn the main script into a Powershell Module that could be installed and used when required. So now there are three functions, GetHeadFromSVN, SyncDB and DeployPackages.</description>
     </item>
     
     <item>
       <title>Automating DB and SSIS builds from source control</title>
-      <link>http://grapefruitmoon.net/automating-db-and-ssis-builds-from-source-control/</link>
+      <link>https://grapefruitmoon.net/automating-db-and-ssis-builds-from-source-control/</link>
       <pubDate>Fri, 12 Aug 2011 19:16:00 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/automating-db-and-ssis-builds-from-source-control/</guid>
+      <guid>https://grapefruitmoon.net/automating-db-and-ssis-builds-from-source-control/</guid>
       <description>This week I’ve been working on a new branch of a data warehouse project. To make deployment to development environments easier I decided I’d attempt to get some sort of continuous integration/automated builds to our dev server up and running. Doing this sort of thing has never been particularly straightforward for database projects, but with the fantastic SQL Compare command line tools and SQL Source Control from Red Gate, this task is made so much easier.</description>
     </item>
     
     <item>
       <title>Deleting from Excel in SSIS – a workaround</title>
-      <link>http://grapefruitmoon.net/deleting-from-excel-in-ssis-a-workaround/</link>
+      <link>https://grapefruitmoon.net/deleting-from-excel-in-ssis-a-workaround/</link>
       <pubDate>Thu, 05 May 2011 07:03:00 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/deleting-from-excel-in-ssis-a-workaround/</guid>
+      <guid>https://grapefruitmoon.net/deleting-from-excel-in-ssis-a-workaround/</guid>
       <description>Here&#39;s a quick how-to post, a little work-around for an issue with writing to Excel from SSIS.
 I&#39;ve been asked a few times how to use SSIS to delete data from an Excel spreadsheet, then write data into that blank spreadsheet, while maintaining the column headers in the first row. There is no particularly straightforward way of doing so in SSIS, as attempting a delete statement on the Excel sheet will either remove the data in all rows (including the header) or throw an error as the DELETE statement is not supported.</description>
     </item>
     
     <item>
       <title>SSIS 2008 Deployment Manifest error</title>
-      <link>http://grapefruitmoon.net/ssis-2008-deployment-manifest-error/</link>
+      <link>https://grapefruitmoon.net/ssis-2008-deployment-manifest-error/</link>
       <pubDate>Tue, 01 Feb 2011 14:50:00 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/ssis-2008-deployment-manifest-error/</guid>
+      <guid>https://grapefruitmoon.net/ssis-2008-deployment-manifest-error/</guid>
       <description>I had an issue this morning whereby I was trying to deploy an SSIS 2008 project using the Deployment Manifest, and was hitting the following error:
  Could not save the package &amp;ldquo;Package Path&amp;rdquo; to SQL Server &amp;ldquo;SQL Server&amp;rdquo;.
   ADDITIONAL INFORMATION:The package failed to load due to error 0xC0011008 &amp;ldquo;Error loading from XML. No further detailed error information can be specified for this problem because no Events object was passed where detailed error information can be stored.</description>
@@ -71,20 +71,20 @@ I&#39;ve been asked a few times how to use SSIS to delete data from an Excel spr
     
     <item>
       <title>SSIS and Tinyint datatype</title>
-      <link>http://grapefruitmoon.net/ssis-and-tinyint-datatype/</link>
+      <link>https://grapefruitmoon.net/ssis-and-tinyint-datatype/</link>
       <pubDate>Tue, 29 Sep 2009 12:47:40 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/ssis-and-tinyint-datatype/</guid>
+      <guid>https://grapefruitmoon.net/ssis-and-tinyint-datatype/</guid>
       <description>I&#39;ve had a couple of issues recently with using the tinyint datatype in SSIS. In one case I have a Lookup Transform which joins to the incoming data flow path on a column defined as a tinyint in the database. The column metadata in the data flow is DT_I4, a four-byte signed integer. Dragging this across to the tinyint column in the Lookup gives me the following error:
 The following columns cannot be mapped: [DataFlowColumn, LookupColumn] One or more columns do not have supported data types, or their data types do not match.</description>
     </item>
     
     <item>
       <title>Excel connections in SSIS 64-bit</title>
-      <link>http://grapefruitmoon.net/excel-connections-in-ssis-64-bit/</link>
+      <link>https://grapefruitmoon.net/excel-connections-in-ssis-64-bit/</link>
       <pubDate>Wed, 04 Feb 2009 14:29:02 +0000</pubDate>
       
-      <guid>http://grapefruitmoon.net/excel-connections-in-ssis-64-bit/</guid>
+      <guid>https://grapefruitmoon.net/excel-connections-in-ssis-64-bit/</guid>
       <description>This is a new one on me&amp;hellip;when running SSIS in a 64-bit environment, Excel connections (and Access as well I presume) do not work, as the OLE DB Provider for Jet is not supported.
 At a current client, they are moving the server platform from Windows 2003 Server to Windows 2008 Server 64-bit. I had developed some ETL packages for them, pulling data from Excel and CSV sources. The packages get executed when the files have been unzipped and downloaded to a specified folder.</description>
     </item>
