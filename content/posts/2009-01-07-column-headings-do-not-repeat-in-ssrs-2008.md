@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2009-01-07T15:18:00+00:00
 url: /column-headings-do-not-repeat-in-ssrs-2008/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 322406
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/column-headings-do-not-repeat
 categories:
   - SQL Server
 tags:

@@ -1,0 +1,41 @@
+{{ define "main" }}
+    {{ .Content }}
+
+    {{ $posts := where site.RegularPages "Section" "posts" }}
+    {{ if $posts }}
+        {{ $latest := index $posts 0 }}
+        <article class="content">
+            <header class="content__header">
+                <h1><a href="{{ $latest.RelPermalink }}">{{ $latest.Title | markdownify }}</a></h1>
+            </header>
+            <div class="content__body">
+                {{ $latest.Summary }}
+                {{ if $latest.Truncated }}
+                    <p><a href="{{ $latest.RelPermalink }}">Read more →</a></p>
+                {{ end }}
+            </div>
+            <footer class="content__footer">
+                <p>
+                    {{ if $latest.Params.author }}By {{ $latest.Params.author }}{{ if $latest.Date }}, {{ end }}{{ end }}
+                    {{ if $latest.Date }}{{ $latest.Date.Format "January 2, 2006" }}{{ end }}
+                </p>
+            </footer>
+        </article>
+    {{ end }}
+{{ end }}
+
+{{ define "aside" }}
+    <div class="aside__recent">
+        <h3>Recent Posts</h3>
+        <ul>
+        {{ $posts := where site.RegularPages "Section" "posts" }}
+        {{ range first 5 $posts }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <br>
+                <small>{{ .Date.Format "Jan 2, 2006" }}</small>
+            </li>
+        {{ end }}
+        </ul>
+    </div>
+{{ end }}

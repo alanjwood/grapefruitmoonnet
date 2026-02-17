@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2011-07-06T22:02:00+00:00
 url: /going-paperless/
-posterous_1b44b25376dfe02342912254d5a4b1dc_post_id:
-  - 59917452
-posterous_1b44b25376dfe02342912254d5a4b1dc_permalink:
-  - http://grapefruitmoon.net/going-paperless
 categories:
   - Tech
 tags:
@@ -31,4 +27,4 @@ A couple of things I really like about Penultimate for handwritten notes:
 
 For electronic (or keyboard input) notes, I fully intended to use <a href="http://www.evernote.com/" target="_blank">Evernote</a>, as I&rsquo;ve been using it for a couple of years. &nbsp;I&rsquo;ve gone through phases of using it for text-based note taking. Recently however, I&rsquo;ve been finding it less than useful for certain tasks. &nbsp;While it&rsquo;s a great repository for PDFs, URL and web snippets, it&rsquo;s actually not great for just taking quick, simple notes &#8211; one main reason being, it&rsquo;s horrendously slow, in all its forms (desktop, web and iOS apps). &nbsp;As I mentioned in my <a href="http://grapefruitmoon.net/enough-for-me" target="_blank">previous post</a>, I started using <a href="http://notational.net/" target="_blank">Notational Velocity</a>, syncing to <a href="http://simplenoteapp.com/" target="_blank">SimpleNote</a> (and <a href="http://www.resoph.com/" target="_blank">ResophNotes</a> on my work Windows laptop). &nbsp;I can&rsquo;t say enough good things about this, it is lightweight, simple and fast as hell. &nbsp;The SimpleNote iOS apps are near perfect &#8211; both open in no time, so I can quickly tap in some text and I&rsquo;m done, in less than the time a more fully featured app would take to open (are you watching Evernote devs?). &nbsp;This is ubiquitous text capture at its finest.
 
-So having been working without paper for over a week now, will I continue? &nbsp;I think I will, certainly for the short term. &nbsp;It's not quite a perfect workflow as yet, there are still a few issues. One being that I still have that self-consciousness when I'm using the iPad in a meeting; yes, I feel like a bit of a dick. &nbsp;The other thing to get used to is the handwriting, writing with a stylus must be an art form, my handwriting looks even worse than it does with pen and paper, something I thought was not possible. &nbsp;Still, it's only me that needs to decipher it&#8230;
+So having been working without paper for over a week now, will I continue? &nbsp;I think I will, certainly for the short term. &nbsp;It's not quite a perfect workflow as yet, there are still a few issues. One being that I still have that self-consciousness when I'm using the iPad in a meeting; yes, I feel like a bit of a dick. &nbsp;The other thing to get used to is the handwriting, writing with a stylus must be an art form, my handwriting looks even worse than it does with pen and paper, something I thought was not possible. &nbsp;Still, it's only me that needs to decipher it…

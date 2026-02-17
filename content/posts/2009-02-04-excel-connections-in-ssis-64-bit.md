@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2009-02-04T14:29:02+00:00
 url: /excel-connections-in-ssis-64-bit/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 388965
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/excel-connections-in-ssis-64-b
 categories:
   - SQL Server
 tags:

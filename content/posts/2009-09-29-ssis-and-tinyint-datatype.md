@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2009-09-29T12:47:40+00:00
 url: /ssis-and-tinyint-datatype/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 4790783
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/ssis-and-tinyint-datatype
 categories:
   - SQL Server
 tags:

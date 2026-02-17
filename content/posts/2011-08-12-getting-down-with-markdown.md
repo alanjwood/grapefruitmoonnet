@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2011-08-12T22:24:34+00:00
 url: /getting-down-with-markdown/
-posterous_1b44b25376dfe02342912254d5a4b1dc_post_id:
-  - 65282721
-posterous_1b44b25376dfe02342912254d5a4b1dc_permalink:
-  - http://grapefruitmoon.net/getting-down-with-markdown
 categories:
   - Tech
 tags:

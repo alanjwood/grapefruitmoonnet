@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2011-02-01T14:50:00+00:00
 url: /ssis-2008-deployment-manifest-error/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 41637442
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/ssis-2008-deployment-manifest-error
 categories:
   - SQL Server
 tags:

@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2009-10-02T14:12:33+00:00
 url: /identify-the-t-sql-being-run-by-a-spid/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 4989581
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/identify-the-t-sql-being-run-by-a-spid
 categories:
   - SQL Server
 tags:

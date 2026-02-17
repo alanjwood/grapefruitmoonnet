@@ -1,0 +1,42 @@
+{{ define "main" }}
+    <header class="content__header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="content__body">
+        {{ .Content }}
+    </div>
+    <footer class="content__footer"></footer>
+{{ end }}
+
+{{define "aside" }}
+    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+    {{ if or (.Params.author) (.Params.date) }}
+        <p>
+            {{ if .Params.author }}By {{ .Params.author }}{{ if .Date }}, {{ end }}{{ end }}
+            {{ if .Date }}{{ .Date.Format "January 2, 2006" }}{{ end }}
+        </p>
+    {{ end }}
+
+    {{ if and (.Params.toc) (.TableOfContents) }}
+	    <hr>
+	    On this page:
+	    {{ .TableOfContents }}
+    {{ end }}
+
+    <hr>
+    <div class="aside__recent">
+        <h3>Recent Posts</h3>
+        <ul>
+        {{ $posts := where site.RegularPages "Section" "posts" }}
+        {{ range first 5 $posts }}
+            {{ if ne .RelPermalink $.RelPermalink }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <br>
+                <small>{{ .Date.Format "Jan 2, 2006" }}</small>
+            </li>
+            {{ end }}
+        {{ end }}
+        </ul>
+    </div>
+{{ end }}

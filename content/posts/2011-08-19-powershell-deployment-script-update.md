@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2011-08-19T17:26:22+00:00
 url: /powershell-deployment-script-update/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 66162320
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/powershell-deployment-script-update
 categories:
   - SQL Server
 tags:

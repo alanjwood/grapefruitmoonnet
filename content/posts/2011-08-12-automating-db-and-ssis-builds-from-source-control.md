@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2011-08-12T19:16:00+00:00
 url: /automating-db-and-ssis-builds-from-source-control/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 65260758
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/automating-db-and-ssis-builds-from-source-con
 categories:
   - SQL Server
 tags:

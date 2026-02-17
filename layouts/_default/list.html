@@ -1,0 +1,31 @@
+{{ define "main" }}
+    <h1 id="{{ .Title | urlize }}">{{ .Title | markdownify }}</h1>
+
+    {{ .Content }}
+
+    <ul>
+    {{ range .Pages }}
+        {{ .Render "li" }}
+    {{ end }}
+    </ul>
+
+{{ end }}
+
+{{define "aside" }}
+    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+
+    <hr>
+    <div class="aside__recent">
+        <h3>Recent Posts</h3>
+        <ul>
+        {{ $posts := where site.RegularPages "Section" "posts" }}
+        {{ range first 5 $posts }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <br>
+                <small>{{ .Date.Format "Jan 2, 2006" }}</small>
+            </li>
+        {{ end }}
+        </ul>
+    </div>
+{{ end }}

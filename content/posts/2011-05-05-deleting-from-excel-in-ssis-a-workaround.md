@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2011-05-05T07:03:00+00:00
 url: /deleting-from-excel-in-ssis-a-workaround/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 51889844
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/deleting-from-excel-in-ssis-a-workaround
 categories:
   - SQL Server
 tags:

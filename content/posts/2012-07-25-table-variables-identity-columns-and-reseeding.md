@@ -14,7 +14,7 @@ tags:
   - variables
 
 ---
-Ever tried to reseed an identity column in a table variable? No? Let's give it a go&#8230;
+Ever tried to reseed an identity column in a table variable? No? Let's give it a go…
 
 Let's declare a simple table variable, @country, and insert a few rows.
 
@@ -47,7 +47,7 @@ TRUNCATE TABLE @country;
 
 The following error would be returned: _Incorrect syntax near &#8216;@country'._
 
-We can remove all the rows from the table by using DELETE rather than truncate, but this does not reset the identity value. Can we use DBCC CHECKIDENT, like we would on a physical table? No&#8230;
+We can remove all the rows from the table by using DELETE rather than truncate, but this does not reset the identity value. Can we use DBCC CHECKIDENT, like we would on a physical table? No…
 
 ```sql
 DBCC CHECKIDENT (@country, RESEED, 1);

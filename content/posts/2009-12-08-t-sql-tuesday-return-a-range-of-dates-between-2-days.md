@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2009-12-08T14:26:00+00:00
 url: /t-sql-tuesday-return-a-range-of-dates-between-2-days/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 8439004
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/t-sql-tuesday-return-a-range-of-dates-between
 categories:
   - SQL Server
 tags:

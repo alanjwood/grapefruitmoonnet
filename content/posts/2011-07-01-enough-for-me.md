@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2011-07-01T19:06:00+00:00
 url: /enough-for-me/
-posterous_1b44b25376dfe02342912254d5a4b1dc_post_id:
-  - 59260979
-posterous_1b44b25376dfe02342912254d5a4b1dc_permalink:
-  - http://grapefruitmoon.net/enough-for-me
 categories:
   - Tech
 tags:
@@ -16,7 +12,7 @@ tags:
   - software
 
 ---
-Inspired by the <a href="http://minimalmac.com/enough" target="_blank">Enough</a> podcast and <a href="http://minimalmac.com/" target="_blank">Minimal Mac</a> site, both by <a href="https://twitter.com/#!/patrickrhone" target="_blank">Patrick Rhone</a>, I've been thinking about how little software I'd need to do all the things I need to, both for work and leisure purposes. &nbsp;I've been patiently waiting on the new Macbook Air refresh, as I'm looking to replace my 15&#8243; 2008 Macbook Pro. &nbsp;I've still not decided if I'm going 11&#8243; or 13&#8243;, although the latter is looking more likely. &nbsp;The base SSD size is 128GB for the current models. &nbsp;That doesn't seem very big, but I think I could easily get away with it, and have plenty to spare. &nbsp;In fact, I'm sure the 11&#8243; 64GB model would be fine too. &nbsp;So what would I install? &nbsp;Read on&#8230;
+Inspired by the <a href="http://minimalmac.com/enough" target="_blank">Enough</a> podcast and <a href="http://minimalmac.com/" target="_blank">Minimal Mac</a> site, both by <a href="https://twitter.com/#!/patrickrhone" target="_blank">Patrick Rhone</a>, I've been thinking about how little software I'd need to do all the things I need to, both for work and leisure purposes. &nbsp;I've been patiently waiting on the new Macbook Air refresh, as I'm looking to replace my 15&#8243; 2008 Macbook Pro. &nbsp;I've still not decided if I'm going 11&#8243; or 13&#8243;, although the latter is looking more likely. &nbsp;The base SSD size is 128GB for the current models. &nbsp;That doesn't seem very big, but I think I could easily get away with it, and have plenty to spare. &nbsp;In fact, I'm sure the 11&#8243; 64GB model would be fine too. &nbsp;So what would I install? &nbsp;Read on…
 
 First up, without a doubt, would be <a href="http://www.google.com/chrome/" target="_blank">Google Chrome</a>, my browser of choice. &nbsp;I made the move to Chrome a couple of years ago from Firefox and it has went from strength to strength. &nbsp;Firefox was way too slow and clunky back then, and I really don't miss it at all. &nbsp;I've never liked Safari either, I did try it for a while, but found it's features too limited. &nbsp;Chrome is fast, extensible and fits perfectly into my workflow.
 

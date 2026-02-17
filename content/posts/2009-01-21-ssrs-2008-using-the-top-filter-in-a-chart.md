@@ -106,7 +106,7 @@ The original poster also wanted the chart data to be sorted.  This is easily do
 
 I can see quite a few situations where using this method of having one &#8220;raw&#8221; dataset and more than one report item consuming the data in different ways would be very beneficial.  Particularly in cases where you have a data report and you need to show a summary chart relating to the data on the same report.
 
-Another method you can use for &#8220;Top N&#8221; reports is to pass a TopN parameter into a stored procedure, and use that value in the SQL statement.  For example&#8230;
+Another method you can use for &#8220;Top N&#8221; reports is to pass a TopN parameter into a stored procedure, and use that value in the SQL statement.  For example…
 
 ```sql
 create procedure [dbo].[TopSales]

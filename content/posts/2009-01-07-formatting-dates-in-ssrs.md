@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2009-01-07T12:19:00+00:00
 url: /formatting-dates-in-ssrs/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 322085
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/formatting-dates-in-ssrs
 categories:
   - SQL Server
 tags:

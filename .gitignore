@@ -1,3 +1,11 @@
+# Hugo build outputs
+public/
+resources/_gen/
+
+# OS files
+.DS_Store
+**/.DS_Store
+
 # Binaries for programs and plugins
 *.exe
 *.exe~

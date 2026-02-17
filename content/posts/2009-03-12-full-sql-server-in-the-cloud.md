@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2009-03-12T09:29:19+00:00
 url: /full-sql-server-in-the-cloud/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 503817
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/full-sql-server-in-the-cloud
 categories:
   - SQL Server
 tags:

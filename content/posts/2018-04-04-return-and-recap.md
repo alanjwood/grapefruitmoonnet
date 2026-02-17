@@ -15,7 +15,7 @@ tags:
   - user groups
 
 ---
-So I've been meaning to get back to this blog for some time, and just&#8230;well I just haven't. Anyway, here we are, so it's time for a quick recap of what I've been up to technically the past couple of years. (Quick because I'd written a long version and MarsEdit lost the draft&#8230;said software is now uninstalled! What follows is the very brief re-write).
+So I've been meaning to get back to this blog for some time, and just…well I just haven't. Anyway, here we are, so it's time for a quick recap of what I've been up to technically the past couple of years. (Quick because I'd written a long version and MarsEdit lost the draft…said software is now uninstalled! What follows is the very brief re-write).
 
 **Education, education, education**
 
@@ -37,7 +37,7 @@ Recently I've been building a new database and web app for the association I do 
 
 There are more community events in Scotland these days, and I've been trying to get to as many as I can reasonably make. The new [Glasgow SQL User Group][5] has been excellent, and the first [SQLGLA][6] event was great, already looking forward to the next one in September. I've also managed to make a couple of the [Glasgow Azure User Group][7] sessions as the content has usually been relevant to what I'm doing or interested in. One I've not made yet, but is on my list, is [EdinbR][8].
 
-So now I just need to think of more ideas for blog posts&#8230;
+So now I just need to think of more ideas for blog posts…
 
  [1]: https://academy.microsoft.com/en-us/professional-program/tracks/data-science/
  [2]: https://www.edx.org/course/delivering-a-data-warehouse-in-the-cloud

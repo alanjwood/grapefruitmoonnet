@@ -4,10 +4,6 @@ author: alan
 type: post
 date: 2009-01-12T13:59:00+00:00
 url: /running-scripts-on-multiple-servers-in-ssms-2008/
-posterous_02249d33a2405d1eae69ce626eb5a028_post_id:
-  - 333177
-posterous_02249d33a2405d1eae69ce626eb5a028_permalink:
-  - http://sqlserver.posterous.com/running-scripts-on-multiple-se
 categories:
   - SQL Server
 tags:

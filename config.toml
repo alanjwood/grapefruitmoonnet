@@ -1,68 +1,62 @@
 baseURL = "https://grapefruitmoon.net/"
-languageCode = "en-us"
+theme = "risotto"
 title = "Grapefruitmoon.net"
-theme = "mainroad"
-languagecode = "en"
+author = "Alan Wood"
+copyright = "© Alan Wood"
+languageCode = "en"
+DefaultContentLanguage = "en"
 
-paginate = 10
+enableInlineShortcodes = true
 canonifyurls = true
-googleAnalytics = "UA-6816459-1"
 
-pygmentsCodeFences = true
+[pagination]
+pagerSize = 10
 
-[Author]
-  name = "Alan Wood"
-  bio = "Data nerd, musician, herbivore"
-  avatar = "/img/awfg1.jpg"
+[params]
+noindex = false
 
-[Params]
-  author = "Alan Wood"
-  info = "Data Consultant"
-  keywords = "developer, bi, powerbi"
-  mainSections = "posts"
-  subtitle = "Where I might talk about data, tech, music, sports and other related nonsense." 
-  description = "Alan Wood's blog about everything" # Description of your site
-  opengraph = true
-  twitter_cards = false
-  readmore = false # Show "Read more" button in list if true
-  authorbox = true
-  post_navigation = true
-  post_meta = ["date", "categories"] # Order of post meta information
+[params.theme]
+palette = "gruvbox-dark"
 
- # Social links
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 1
-    url = "https://twitter.com/grapefruitmoon/"
+# Sidebar: about/bio
+[params.about]
+title = "Grapefruitmoon.net"
+description = "Data nerd, musician, herbivore. Where I might talk about data, tech, music, sports and other related nonsense."
+logo = "🍊"
+
+# Sidebar: social links
+[[params.socialLinks]]
+icon = "fa-brands fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/grapefruitmoon/"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# For inline HTML in posts
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+# Syntax highlighting
+[markup.highlight]
+style = "monokai"
+
+# Table of contents
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+ordered = true
 
 [[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
+identifier = "posts"
+name = "Blog"
+url = "/posts/"
+weight = 1
+
 [[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about/"
-
-
-
-# [Params]
-
-
-# [Params.sidebar]
-#   home = "right"   # Configure layout for home page
-#   list = "right"   # Configure layout for list pages
-#   single = false # Configure layout for single pages
-#   # Enable widgets in given order
-#   widgets = ["categories", "social", "taglist"]
-#   #widgets = ["social"]
-
-# [Params.widgets]
-#   recent_num = 5 # Set the number of articles in the "Recent articles" widget
-#   tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)
-
-# [Params.widgets.social]
-#   # Enable parts of social widget
-#   facebook = "alanjwood"
-#   twitter = "grapefruitmoon"
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2
