@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>datatypes on Grapefruitmoon.net</title>
+    <title>Datatypes on Grapefruitmoon.net</title>
     <link>https://grapefruitmoon.net/tags/datatypes/</link>
-    <description>Recent content in datatypes on Grapefruitmoon.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content in Datatypes on Grapefruitmoon.net</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Alan Wood</copyright>
     <lastBuildDate>Tue, 29 Sep 2009 12:47:40 +0000</lastBuildDate>
-    
-	<atom:link href="https://grapefruitmoon.net/tags/datatypes/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://grapefruitmoon.net/tags/datatypes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSIS and Tinyint datatype</title>
       <link>https://grapefruitmoon.net/ssis-and-tinyint-datatype/</link>
       <pubDate>Tue, 29 Sep 2009 12:47:40 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/ssis-and-tinyint-datatype/</guid>
-      <description>I&#39;ve had a couple of issues recently with using the tinyint datatype in SSIS. In one case I have a Lookup Transform which joins to the incoming data flow path on a column defined as a tinyint in the database. The column metadata in the data flow is DT_I4, a four-byte signed integer. Dragging this across to the tinyint column in the Lookup gives me the following error:
-The following columns cannot be mapped: [DataFlowColumn, LookupColumn] One or more columns do not have supported data types, or their data types do not match.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve had a couple of issues recently with using the tinyint datatype in SSIS. In one case I have a Lookup Transform which joins to the incoming data flow path on a column defined as a tinyint in the database. The column metadata in the data flow is DT_I4, a four-byte signed integer. Dragging this across to the tinyint column in the Lookup gives me the following error:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;The following columns cannot be mapped:&#xA;[DataFlowColumn, LookupColumn]&#xA;One or more columns do not have supported data types, or their data types do not match.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;By process of elimination, I discovered the incoming column needs to be converted to a DT_UI1, a single-byte unsigned integer. One to bear in mind for the future!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

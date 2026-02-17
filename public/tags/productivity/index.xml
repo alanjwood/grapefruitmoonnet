@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>productivity on Grapefruitmoon.net</title>
+    <title>Productivity on Grapefruitmoon.net</title>
     <link>https://grapefruitmoon.net/tags/productivity/</link>
-    <description>Recent content in productivity on Grapefruitmoon.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content in Productivity on Grapefruitmoon.net</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Alan Wood</copyright>
     <lastBuildDate>Tue, 17 Jul 2012 18:59:11 +0000</lastBuildDate>
-    
-	<atom:link href="https://grapefruitmoon.net/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://grapefruitmoon.net/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>T-SQL Tuesday: A Day In The Life</title>
       <link>https://grapefruitmoon.net/t-sql-tuesday-a-day-in-the-life/</link>
       <pubDate>Tue, 17 Jul 2012 18:59:11 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/t-sql-tuesday-a-day-in-the-life/</guid>
-      <description>This month&#39;s T-SQL Tuesday is hosted by Erin Stellato, and the theme is A Day In The Life. The premise is to track what you do over the course of a day as a SQL professional. My days can differ greatly, depending on the role I&#39;m currently working in, and for what client. My current role is mainly database development and data migration work for an upgrade to an existing application.</description>
+      <description>&lt;p&gt;This month&amp;rsquo;s T-SQL Tuesday is hosted by &lt;a href=&#34;https://twitter.com/erinstellato&#34;&gt;Erin Stellato&lt;/a&gt;, and the theme is &lt;a href=&#34;http://erinstellato.com/2012/07/invitation-for-tsql-tuesday-day-life/&#34;&gt;A Day In The Life&lt;/a&gt;. The premise is to track what you do over the course of a day as a SQL professional. My days can differ greatly, depending on the role I&amp;rsquo;m currently working in, and for what client. My current role is mainly database development and data migration work for an upgrade to an existing application. Last Wednesday went roughly something like this…&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Going Paperless</title>
       <link>https://grapefruitmoon.net/going-paperless/</link>
       <pubDate>Wed, 06 Jul 2011 22:02:00 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/going-paperless/</guid>
-      <description>I decided to try a small workflow experiment this week and try to go paperless both at work and at home. I&#39;m a big notetaker and scribbler, and I&#39;ve normally got two or three notepads on the go at the one time. Having purchased a Griffin stylusfor the iPad last week, it felt like a good time to try and ditch the paper and go digital.
-I started the experiment while working.</description>
+      <description>&lt;p&gt;I decided to try a small workflow experiment this week and try to go paperless both at work and at home.  I&amp;rsquo;m a big notetaker and scribbler, and I&amp;rsquo;ve normally got two or three notepads on the go at the one time.  Having purchased a &lt;a href=&#34;http://www.macworld.co.uk/ipod-itunes/reviews/index.cfm?reviewid=3249973&#34; target=&#34;_blank&#34;&gt;Griffin stylus&lt;/a&gt; for the iPad last week, it felt like a good time to try and ditch the paper and go digital.&lt;/p&gt;&#xA;&lt;p&gt;I started the experiment while working.  Usually, I have an A5 spiral lined notebook, in which I&amp;rsquo;ll write down such things as to-do lists (for the day and/or week) and anything interesting that I come across.  I also have a few pages of A4 printer paper, which partially sit under my keyboard.  These sheets are used for sketching diagrams, flows, processes, data lists etc.  The first thing then, was to get rid of all this – the notepad and pen were left in my laptop bag, and the A4 sheets, once checked for anything I&amp;rsquo;d need, were thrown in the shredder.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,48 +4,38 @@
     <title>Categories on Grapefruitmoon.net</title>
     <link>https://grapefruitmoon.net/categories/</link>
     <description>Recent content in Categories on Grapefruitmoon.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 04 Apr 2018 22:45:11 +0000</lastBuildDate>
-    
-	<atom:link href="https://grapefruitmoon.net/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Alan Wood</copyright>
+    <lastBuildDate>Sun, 12 Jan 2020 11:16:53 +0000</lastBuildDate>
+    <atom:link href="https://grapefruitmoon.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech</title>
+      <link>https://grapefruitmoon.net/categories/tech/</link>
+      <pubDate>Sun, 12 Jan 2020 11:16:53 +0000</pubDate>
+      <guid>https://grapefruitmoon.net/categories/tech/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Data</title>
       <link>https://grapefruitmoon.net/categories/data/</link>
       <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/categories/data/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SQL Server</title>
       <link>https://grapefruitmoon.net/categories/sql-server/</link>
       <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/categories/sql-server/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>https://grapefruitmoon.net/categories/tech/</link>
-      <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
-      
-      <guid>https://grapefruitmoon.net/categories/tech/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Sports</title>
       <link>https://grapefruitmoon.net/categories/sports/</link>
       <pubDate>Wed, 01 Jun 2016 17:13:04 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/categories/sports/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

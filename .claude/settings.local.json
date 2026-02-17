@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo version:*)",
+      "Bash(grep:*)",
+      "Bash(du:*)",
+      "Bash(find:*)",
+      "Bash(for:*)",
+      "Bash(do sed:*)",
+      "Bash(done)",
+      "Bash(cat:*)",
+      "Bash(hugo server:*)",
+      "Bash(pkill:*)",
+      "Bash(hugo:*)",
+      "Bash(ls:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(identify:*)",
+      "Bash(file:*)"
+    ]
+  }
+}

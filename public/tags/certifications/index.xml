@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>certifications on Grapefruitmoon.net</title>
+    <title>Certifications on Grapefruitmoon.net</title>
     <link>https://grapefruitmoon.net/tags/certifications/</link>
-    <description>Recent content in certifications on Grapefruitmoon.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content in Certifications on Grapefruitmoon.net</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Alan Wood</copyright>
     <lastBuildDate>Wed, 04 Apr 2018 22:45:11 +0000</lastBuildDate>
-    
-	<atom:link href="https://grapefruitmoon.net/tags/certifications/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://grapefruitmoon.net/tags/certifications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Return and Recap</title>
       <link>https://grapefruitmoon.net/return-and-recap/</link>
       <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/return-and-recap/</guid>
-      <description>So I&#39;ve been meaning to get back to this blog for some time, and just…well I just haven&#39;t. Anyway, here we are, so it&#39;s time for a quick recap of what I&#39;ve been up to technically the past couple of years. (Quick because I&#39;d written a long version and MarsEdit lost the draft…said software is now uninstalled! What follows is the very brief re-write).
-Education, education, education
-Learning has been my thing.</description>
+      <description>&lt;p&gt;So I&amp;rsquo;ve been meaning to get back to this blog for some time, and just…well I just haven&amp;rsquo;t. Anyway, here we are, so it&amp;rsquo;s time for a quick recap of what I&amp;rsquo;ve been up to technically the past couple of years. (Quick because I&amp;rsquo;d written a long version and MarsEdit lost the draft…said software is now uninstalled! What follows is the very brief re-write).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Education, education, education&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Learning has been my thing. In 2016 I started the &lt;a href=&#34;https://academy.microsoft.com/en-us/professional-program/tracks/data-science/&#34;&gt;Microsoft Professional Program in Data Science&lt;/a&gt; and completed it in early 2017. Ten courses. Some really interesting and engaging. Some not so much. The final project was challenging, mainly as I was in the second iteration of the course and some issues were still being ironed out. The course team were excellent though and the effort involved was ultimately worthwhile.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

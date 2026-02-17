@@ -4,32 +4,24 @@
     <title>Reporting Services on Grapefruitmoon.net</title>
     <link>https://grapefruitmoon.net/tags/reporting-services/</link>
     <description>Recent content in Reporting Services on Grapefruitmoon.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Alan Wood</copyright>
     <lastBuildDate>Wed, 07 Jan 2009 15:18:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://grapefruitmoon.net/tags/reporting-services/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://grapefruitmoon.net/tags/reporting-services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Column headings do not repeat in SSRS 2008</title>
       <link>https://grapefruitmoon.net/column-headings-do-not-repeat-in-ssrs-2008/</link>
       <pubDate>Wed, 07 Jan 2009 15:18:00 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/column-headings-do-not-repeat-in-ssrs-2008/</guid>
-      <description>I&#39;ve just stumbled upon an odd issue with the Tablix control in SSRS 2008. I deployed a report on a server a few weeks ago and it is now reporting on enough data to make it span multiple pages. I wanted the column headings to appear on all pages, not just the first. However, when I set the RepeatColumnHeaders property on the Tablix to be true, the headings still did not appear on the next page.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve just stumbled upon an odd issue with the Tablix control in SSRS 2008.  I deployed a report on a server a few weeks ago and it is now reporting on enough data to make it span multiple pages.  I wanted the column headings to appear on all pages, not just the first.  However, when I set the RepeatColumnHeaders property on the Tablix to be true, the headings still did not appear on the next page.  After a bit of playing around I enabled Advanced Mode in the Grouping Pane, and had a look at the properties for the top (Static) group in Row Groups.  Under Other, there is a property called RepeatOnNewPage.  Setting this to True made the column headers appear as required.  OK, so that&amp;rsquo;s fine, but I can&amp;rsquo;t help but think that this a a bug in SSRS 2008, and should be fixed by MS.  Looking through the RDL file itself, I can&amp;rsquo;t find anything that would cause the RepeatColumnHeaders property not to behave as expected.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Formatting Dates in SSRS</title>
       <link>https://grapefruitmoon.net/formatting-dates-in-ssrs/</link>
       <pubDate>Wed, 07 Jan 2009 12:19:00 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/formatting-dates-in-ssrs/</guid>
-      <description>In Reporting Services, formatting dates can become a headache for the developer, often due to differing regional settings on servers, development boxes etc. Therefore I&#39;ve found it much more useful to force the report to use a particular format, rather than allow the server settings to decide for me. Previously I would have used FormatDateTime in the expression, as shown here:
-=FormatDateTime(Fields!DateStamp.Value, DateFormat.ShortDate)
-Depending on the regional settings, this could return either 12/3/2008 or 3/12/2008.</description>
+      <description>&lt;p&gt;In Reporting Services, formatting dates can become a headache for the developer, often due to differing regional settings on servers, development boxes etc.  Therefore I&amp;rsquo;ve found it much more useful to force the report to use a particular format, rather than allow the server settings to decide for me.  Previously I would have used FormatDateTime in the expression, as shown here:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;=FormatDateTime(Fields!DateStamp.Value, DateFormat.ShortDate)&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Depending on the regional settings, this could return either 12/3/2008 or 3/12/2008.  When designing the report, I want to know exactly what the date will look like, no matter where it is deployed.  So I instead use the Format function to allow me to choose the format I require.  Some examples:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>identity columns on Grapefruitmoon.net</title>
+    <title>Identity Columns on Grapefruitmoon.net</title>
     <link>https://grapefruitmoon.net/tags/identity-columns/</link>
-    <description>Recent content in identity columns on Grapefruitmoon.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content in Identity Columns on Grapefruitmoon.net</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Alan Wood</copyright>
     <lastBuildDate>Wed, 25 Jul 2012 17:00:11 +0000</lastBuildDate>
-    
-	<atom:link href="https://grapefruitmoon.net/tags/identity-columns/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://grapefruitmoon.net/tags/identity-columns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Table variables, identity columns and reseeding</title>
       <link>https://grapefruitmoon.net/table-variables-identity-columns-and-reseeding/</link>
       <pubDate>Wed, 25 Jul 2012 17:00:11 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/table-variables-identity-columns-and-reseeding/</guid>
-      <description>Ever tried to reseed an identity column in a table variable? No? Let&#39;s give it a go…
-Let&#39;s declare a simple table variable, @country, and insert a few rows.
-DECLARE @country TABLE ( CountryId INT IDENTITY(1,1), CountryName VARCHAR(50) NOT null ); INSERT INTO @country ( CountryName ) VALUES ( &amp;#39;Scotland&amp;#39; ), ( &amp;#39;England&amp;#39; ), ( &amp;#39;Wales&amp;#39; ), ( &amp;#39;Northern Ireland&amp;#39; ) ; SELECT CountryId , CountryName FROM @country ; Truncating a normal table will remove all the rows and reseed the identity value.</description>
+      <description>&lt;p&gt;Ever tried to reseed an identity column in a table variable? No? Let&amp;rsquo;s give it a go…&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s declare a simple table variable, @country, and insert a few rows.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;DECLARE&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;@&lt;/span&gt;country &lt;span style=&#34;color:#66d9ef&#34;&gt;TABLE&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; CountryId INT &lt;span style=&#34;color:#66d9ef&#34;&gt;IDENTITY&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; CountryName VARCHAR(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;NOT&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;null&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;INSERT&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;INTO&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;@&lt;/span&gt;country&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; ( CountryName )&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;VALUES&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; ( &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Scotland&amp;#39;&lt;/span&gt; ),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; ( &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;England&amp;#39;&lt;/span&gt; ),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; ( &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Wales&amp;#39;&lt;/span&gt; ),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; ( &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Northern Ireland&amp;#39;&lt;/span&gt; ) ;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; CountryId ,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; CountryName&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;@&lt;/span&gt;country ;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Truncating a normal table will remove all the rows and reseed the identity value. The following syntax is not valid for a table variable however:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

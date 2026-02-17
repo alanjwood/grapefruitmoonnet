@@ -9,6 +9,4 @@ I’m Alan and Grapefruitmoon is my little online home. As you may well have see
 
 Professionally, I’m a database architect/developer/analyst/whatever you want to call me. I run a data consultancy focusing primarily on the Microsoft BI Stack & Azure. 
 
-You can find me on Twitter at [@grapefruitmoon][2].
-
- [2]: http://www.twitter.com/#!/grapefruitmoon
+You can find me on Bluesky [here](https://bsky.app/profile/alanwood.me).

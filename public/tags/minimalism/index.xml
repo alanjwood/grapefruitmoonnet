@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>minimalism on Grapefruitmoon.net</title>
+    <title>Minimalism on Grapefruitmoon.net</title>
     <link>https://grapefruitmoon.net/tags/minimalism/</link>
-    <description>Recent content in minimalism on Grapefruitmoon.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content in Minimalism on Grapefruitmoon.net</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Alan Wood</copyright>
     <lastBuildDate>Fri, 01 Jul 2011 19:06:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://grapefruitmoon.net/tags/minimalism/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://grapefruitmoon.net/tags/minimalism/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enough For Me</title>
       <link>https://grapefruitmoon.net/enough-for-me/</link>
       <pubDate>Fri, 01 Jul 2011 19:06:00 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/enough-for-me/</guid>
-      <description>Inspired by the Enoughpodcast and Minimal Macsite, both by Patrick Rhone, I&#39;ve been thinking about how little software I&#39;d need to do all the things I need to, both for work and leisure purposes. I&#39;ve been patiently waiting on the new Macbook Air refresh, as I&#39;m looking to replace my 15″ 2008 Macbook Pro. I&#39;ve still not decided if I&#39;m going 11″ or 13″, although the latter is looking more likely.</description>
+      <description>&lt;p&gt;Inspired by the &lt;a href=&#34;http://minimalmac.com/enough&#34; target=&#34;_blank&#34;&gt;Enough&lt;/a&gt; podcast and &lt;a href=&#34;http://minimalmac.com/&#34; target=&#34;_blank&#34;&gt;Minimal Mac&lt;/a&gt; site, both by &lt;a href=&#34;https://twitter.com/#!/patrickrhone&#34; target=&#34;_blank&#34;&gt;Patrick Rhone&lt;/a&gt;, I&amp;rsquo;ve been thinking about how little software I&amp;rsquo;d need to do all the things I need to, both for work and leisure purposes.  I&amp;rsquo;ve been patiently waiting on the new Macbook Air refresh, as I&amp;rsquo;m looking to replace my 15″ 2008 Macbook Pro.  I&amp;rsquo;ve still not decided if I&amp;rsquo;m going 11″ or 13″, although the latter is looking more likely.  The base SSD size is 128GB for the current models.  That doesn&amp;rsquo;t seem very big, but I think I could easily get away with it, and have plenty to spare.  In fact, I&amp;rsquo;m sure the 11″ 64GB model would be fine too.  So what would I install?  Read on…&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>group by on Grapefruitmoon.net</title>
+    <title>Group By on Grapefruitmoon.net</title>
     <link>https://grapefruitmoon.net/tags/group-by/</link>
-    <description>Recent content in group by on Grapefruitmoon.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content in Group By on Grapefruitmoon.net</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Alan Wood</copyright>
     <lastBuildDate>Tue, 03 Jul 2012 13:21:39 +0000</lastBuildDate>
-    
-	<atom:link href="https://grapefruitmoon.net/tags/group-by/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://grapefruitmoon.net/tags/group-by/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diving into T-SQL Grouping Sets</title>
       <link>https://grapefruitmoon.net/diving-into-t-sql-grouping-sets/</link>
       <pubDate>Tue, 03 Jul 2012 13:21:39 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/diving-into-t-sql-grouping-sets/</guid>
-      <description>The Grouping Sets feature was added to the T-SQL GROUP BY clause with the release of SQL Server 2008. Despite its usefulness, I&#39;ve not come across many (or any) of them in the wild at any of the clients I&#39;ve worked at in the past few years. Here is a primer on how to use them, using the AdventureWorks OLTP database.
-SQL Server 2005 Style In SQL Server 2005, we could use the WITH ROLLUP syntax to add an aggregated total row:</description>
+      <description>&lt;p&gt;The Grouping Sets feature was added to the T-SQL GROUP BY clause with the release of SQL Server 2008. Despite its usefulness, I&amp;rsquo;ve not come across many (or any) of them in the wild at any of the clients I&amp;rsquo;ve worked at in the past few years. Here is a primer on how to use them, using the AdventureWorks OLTP database.&lt;/p&gt;&#xA;&lt;h3 id=&#34;sql-server-2005-style&#34;&gt;SQL Server 2005 Style&lt;/h3&gt;&#xA;&lt;p&gt;In SQL Server 2005, we could use the WITH ROLLUP syntax to add an aggregated total row:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

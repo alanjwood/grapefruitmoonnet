@@ -8,7 +8,7 @@ categories:
 tags:
   - blogs
 
-draft: true
+draft: false
 ---
 
 When you don't blog very often, it turns out that you don't tend you check your blog very often either. So it was with a bit of surprise that when I had a look at my site just before Christmas, I saw no content whatsoever. I logged into WordPress and had a look at the stats. Turned out that it had been that way since May, zero visits since then. It appears that an automatic update meant the theme was not compatible, and therefore served no content. Ooft.

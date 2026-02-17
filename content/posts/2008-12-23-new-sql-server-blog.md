@@ -9,6 +9,7 @@ categories:
 tags:
   - books
 
+draft: false
 ---
 I'll be posting any SQL Server related stuff in this new blog. I may even try to make it vaguely interesting! And I promise not to post my daily "I hate SSIS!"/"I love SSIS!" thoughts here. 🙂
 

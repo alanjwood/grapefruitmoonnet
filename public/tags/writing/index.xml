@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>writing on Grapefruitmoon.net</title>
+    <title>Writing on Grapefruitmoon.net</title>
     <link>https://grapefruitmoon.net/tags/writing/</link>
-    <description>Recent content in writing on Grapefruitmoon.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content in Writing on Grapefruitmoon.net</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Alan Wood</copyright>
     <lastBuildDate>Fri, 12 Aug 2011 22:24:34 +0000</lastBuildDate>
-    
-	<atom:link href="https://grapefruitmoon.net/tags/writing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://grapefruitmoon.net/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting down with Markdown</title>
       <link>https://grapefruitmoon.net/getting-down-with-markdown/</link>
       <pubDate>Fri, 12 Aug 2011 22:24:34 +0000</pubDate>
-      
       <guid>https://grapefruitmoon.net/getting-down-with-markdown/</guid>
-      <description>You know sometimes you keep hearing about something, about how great it is, yet for some reason, you decide to ignore it and not bother checking it out? Well that’s pretty much what I had been doing with Markdown till this week. Almost every text editor I looked at on the Mac and iOS app stores mentioned support for Markdown, tech guys I respect either wrote about it or talked about it in podcasts.</description>
+      <description>&lt;p&gt;You know sometimes you keep hearing about something, about how great it is, yet for some reason, you decide to ignore it and not bother checking it out? Well that’s pretty much what I had been doing with &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; till this week. Almost every text editor I looked at on the Mac and iOS app stores mentioned support for Markdown, tech guys I respect either wrote about it or talked about it in podcasts. Yet somehow I felt it was something not for me, something I didn’t need to bother with. I’m pretty sure I know why I didn’t want to check it out. One was simplicity; I like the ubiquitous text file, the ability to open it in pretty much any program in any OS. I like that I don’t have to worry about formatting, or waste time trying to get it to look right. It’s all about the content. Complicating things by adding markup tags was of little interest to me. The other, main, reason was that I’ve had bad experiences with markup tools in the past. Mainly with a wiki editor I used on a contract a few years ago. The experience was terrible, having to use nonsensical characters to format the text, which rendered the content, in it’s raw form, completely unreadable. The end result usually looked okay, but I’d waste so much time looking up tags, adding them in, then previewing the output. I really didn’t want to go down that route again.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
