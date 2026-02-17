@@ -1,5 +1,14 @@
 /* Custom styles for Grapefruitmoon.net */
 
+/* Image sizing - prevent overlap and ensure responsiveness */
+.content__body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    border: 1px solid var(--base02);
+}
+
 /* Increase text size for better readability */
 .content__body {
     font-size: 1.125rem;  /* 18px if base is 16px */
