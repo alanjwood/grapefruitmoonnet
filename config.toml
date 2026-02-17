@@ -26,9 +26,9 @@ logo = "🍊"
 
 # Sidebar: social links
 [[params.socialLinks]]
-icon = "fa-brands fa-twitter"
-title = "Twitter"
-url = "https://twitter.com/grapefruitmoon/"
+icon = "fa-brands fa-bluesky"
+title = "Bluesky"
+url = "https://bsky.app/profile/alanwood.me"
 
 [taxonomies]
 category = "categories"
