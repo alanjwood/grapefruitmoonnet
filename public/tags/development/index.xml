@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/tags/development/</link>
+    <link>http://localhost:1313/tags/development/</link>
     <description>Recent content in Development on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Tue, 17 Jul 2012 18:59:11 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>T-SQL Tuesday: A Day In The Life</title>
-      <link>https://grapefruitmoon.net/t-sql-tuesday-a-day-in-the-life/</link>
+      <link>http://localhost:1313/t-sql-tuesday-a-day-in-the-life/</link>
       <pubDate>Tue, 17 Jul 2012 18:59:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/t-sql-tuesday-a-day-in-the-life/</guid>
+      <guid>http://localhost:1313/t-sql-tuesday-a-day-in-the-life/</guid>
       <description>&lt;p&gt;This month&amp;rsquo;s T-SQL Tuesday is hosted by &lt;a href=&#34;https://twitter.com/erinstellato&#34;&gt;Erin Stellato&lt;/a&gt;, and the theme is &lt;a href=&#34;http://erinstellato.com/2012/07/invitation-for-tsql-tuesday-day-life/&#34;&gt;A Day In The Life&lt;/a&gt;. The premise is to track what you do over the course of a day as a SQL professional. My days can differ greatly, depending on the role I&amp;rsquo;m currently working in, and for what client. My current role is mainly database development and data migration work for an upgrade to an existing application. Last Wednesday went roughly something like this…&lt;/p&gt;</description>
     </item>
   </channel>

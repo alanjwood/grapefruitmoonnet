@@ -2,452 +2,452 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Sun, 12 Jan 2020 11:16:53 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogs</title>
-      <link>https://grapefruitmoon.net/tags/blogs/</link>
+      <link>http://localhost:1313/tags/blogs/</link>
       <pubDate>Sun, 12 Jan 2020 11:16:53 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/blogs/</guid>
+      <guid>http://localhost:1313/tags/blogs/</guid>
       <description></description>
     </item>
     <item>
       <title>Certifications</title>
-      <link>https://grapefruitmoon.net/tags/certifications/</link>
+      <link>http://localhost:1313/tags/certifications/</link>
       <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/certifications/</guid>
+      <guid>http://localhost:1313/tags/certifications/</guid>
       <description></description>
     </item>
     <item>
       <title>Power Bi</title>
-      <link>https://grapefruitmoon.net/tags/power-bi/</link>
+      <link>http://localhost:1313/tags/power-bi/</link>
       <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/power-bi/</guid>
+      <guid>http://localhost:1313/tags/power-bi/</guid>
       <description></description>
     </item>
     <item>
       <title>Sql</title>
-      <link>https://grapefruitmoon.net/tags/sql/</link>
+      <link>http://localhost:1313/tags/sql/</link>
       <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/sql/</guid>
+      <guid>http://localhost:1313/tags/sql/</guid>
       <description></description>
     </item>
     <item>
       <title>User Groups</title>
-      <link>https://grapefruitmoon.net/tags/user-groups/</link>
+      <link>http://localhost:1313/tags/user-groups/</link>
       <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/user-groups/</guid>
+      <guid>http://localhost:1313/tags/user-groups/</guid>
       <description></description>
     </item>
     <item>
       <title>Eufa</title>
-      <link>https://grapefruitmoon.net/tags/eufa/</link>
+      <link>http://localhost:1313/tags/eufa/</link>
       <pubDate>Wed, 01 Jun 2016 17:13:04 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/eufa/</guid>
+      <guid>http://localhost:1313/tags/eufa/</guid>
       <description></description>
     </item>
     <item>
       <title>Football</title>
-      <link>https://grapefruitmoon.net/tags/football/</link>
+      <link>http://localhost:1313/tags/football/</link>
       <pubDate>Wed, 01 Jun 2016 17:13:04 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/football/</guid>
+      <guid>http://localhost:1313/tags/football/</guid>
       <description></description>
     </item>
     <item>
       <title>Powerquery</title>
-      <link>https://grapefruitmoon.net/tags/powerquery/</link>
+      <link>http://localhost:1313/tags/powerquery/</link>
       <pubDate>Wed, 01 Jun 2016 17:13:04 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/powerquery/</guid>
+      <guid>http://localhost:1313/tags/powerquery/</guid>
       <description></description>
     </item>
     <item>
       <title>Scotland</title>
-      <link>https://grapefruitmoon.net/tags/scotland/</link>
+      <link>http://localhost:1313/tags/scotland/</link>
       <pubDate>Wed, 01 Jun 2016 17:13:04 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/scotland/</guid>
+      <guid>http://localhost:1313/tags/scotland/</guid>
       <description></description>
     </item>
     <item>
       <title>Womens Football</title>
-      <link>https://grapefruitmoon.net/tags/womens-football/</link>
+      <link>http://localhost:1313/tags/womens-football/</link>
       <pubDate>Wed, 01 Jun 2016 17:13:04 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/womens-football/</guid>
+      <guid>http://localhost:1313/tags/womens-football/</guid>
       <description></description>
     </item>
     <item>
       <title>Dax</title>
-      <link>https://grapefruitmoon.net/tags/dax/</link>
+      <link>http://localhost:1313/tags/dax/</link>
       <pubDate>Thu, 17 Mar 2016 17:08:54 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/dax/</guid>
+      <guid>http://localhost:1313/tags/dax/</guid>
       <description></description>
     </item>
     <item>
       <title>Powerpivot</title>
-      <link>https://grapefruitmoon.net/tags/powerpivot/</link>
+      <link>http://localhost:1313/tags/powerpivot/</link>
       <pubDate>Thu, 17 Mar 2016 17:08:54 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/powerpivot/</guid>
+      <guid>http://localhost:1313/tags/powerpivot/</guid>
       <description></description>
     </item>
     <item>
       <title>Biml</title>
-      <link>https://grapefruitmoon.net/tags/biml/</link>
+      <link>http://localhost:1313/tags/biml/</link>
       <pubDate>Mon, 04 Aug 2014 15:15:14 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/biml/</guid>
+      <guid>http://localhost:1313/tags/biml/</guid>
       <description></description>
     </item>
     <item>
       <title>Ssis</title>
-      <link>https://grapefruitmoon.net/tags/ssis/</link>
+      <link>http://localhost:1313/tags/ssis/</link>
       <pubDate>Mon, 04 Aug 2014 15:15:14 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/ssis/</guid>
+      <guid>http://localhost:1313/tags/ssis/</guid>
       <description></description>
     </item>
     <item>
       <title>Credentials</title>
-      <link>https://grapefruitmoon.net/tags/credentials/</link>
+      <link>http://localhost:1313/tags/credentials/</link>
       <pubDate>Thu, 30 Jan 2014 11:58:22 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/credentials/</guid>
+      <guid>http://localhost:1313/tags/credentials/</guid>
       <description></description>
     </item>
     <item>
       <title>Proxies</title>
-      <link>https://grapefruitmoon.net/tags/proxies/</link>
+      <link>http://localhost:1313/tags/proxies/</link>
       <pubDate>Thu, 30 Jan 2014 11:58:22 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/proxies/</guid>
+      <guid>http://localhost:1313/tags/proxies/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://grapefruitmoon.net/tags/security/</link>
+      <link>http://localhost:1313/tags/security/</link>
       <pubDate>Thu, 30 Jan 2014 11:58:22 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/security/</guid>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Sql Agent</title>
-      <link>https://grapefruitmoon.net/tags/sql-agent/</link>
+      <link>http://localhost:1313/tags/sql-agent/</link>
       <pubDate>Thu, 30 Jan 2014 11:58:22 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/sql-agent/</guid>
+      <guid>http://localhost:1313/tags/sql-agent/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>https://grapefruitmoon.net/tags/data/</link>
+      <link>http://localhost:1313/tags/data/</link>
       <pubDate>Mon, 13 May 2013 18:17:02 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/data/</guid>
+      <guid>http://localhost:1313/tags/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Stats</title>
-      <link>https://grapefruitmoon.net/tags/stats/</link>
+      <link>http://localhost:1313/tags/stats/</link>
       <pubDate>Mon, 13 May 2013 18:17:02 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/stats/</guid>
+      <guid>http://localhost:1313/tags/stats/</guid>
       <description></description>
     </item>
     <item>
       <title>Identity Columns</title>
-      <link>https://grapefruitmoon.net/tags/identity-columns/</link>
+      <link>http://localhost:1313/tags/identity-columns/</link>
       <pubDate>Wed, 25 Jul 2012 17:00:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/identity-columns/</guid>
+      <guid>http://localhost:1313/tags/identity-columns/</guid>
       <description></description>
     </item>
     <item>
       <title>Reseed</title>
-      <link>https://grapefruitmoon.net/tags/reseed/</link>
+      <link>http://localhost:1313/tags/reseed/</link>
       <pubDate>Wed, 25 Jul 2012 17:00:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/reseed/</guid>
+      <guid>http://localhost:1313/tags/reseed/</guid>
       <description></description>
     </item>
     <item>
       <title>Scope</title>
-      <link>https://grapefruitmoon.net/tags/scope/</link>
+      <link>http://localhost:1313/tags/scope/</link>
       <pubDate>Wed, 25 Jul 2012 17:00:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/scope/</guid>
+      <guid>http://localhost:1313/tags/scope/</guid>
       <description></description>
     </item>
     <item>
       <title>T-Sql</title>
-      <link>https://grapefruitmoon.net/tags/t-sql/</link>
+      <link>http://localhost:1313/tags/t-sql/</link>
       <pubDate>Wed, 25 Jul 2012 17:00:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/t-sql/</guid>
+      <guid>http://localhost:1313/tags/t-sql/</guid>
       <description></description>
     </item>
     <item>
       <title>Variables</title>
-      <link>https://grapefruitmoon.net/tags/variables/</link>
+      <link>http://localhost:1313/tags/variables/</link>
       <pubDate>Wed, 25 Jul 2012 17:00:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/variables/</guid>
+      <guid>http://localhost:1313/tags/variables/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>https://grapefruitmoon.net/tags/development/</link>
+      <link>http://localhost:1313/tags/development/</link>
       <pubDate>Tue, 17 Jul 2012 18:59:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/development/</guid>
+      <guid>http://localhost:1313/tags/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Productivity</title>
-      <link>https://grapefruitmoon.net/tags/productivity/</link>
+      <link>http://localhost:1313/tags/productivity/</link>
       <pubDate>Tue, 17 Jul 2012 18:59:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/productivity/</guid>
+      <guid>http://localhost:1313/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
       <title>Aggregates</title>
-      <link>https://grapefruitmoon.net/tags/aggregates/</link>
+      <link>http://localhost:1313/tags/aggregates/</link>
       <pubDate>Tue, 03 Jul 2012 13:21:39 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/aggregates/</guid>
+      <guid>http://localhost:1313/tags/aggregates/</guid>
       <description></description>
     </item>
     <item>
       <title>Group By</title>
-      <link>https://grapefruitmoon.net/tags/group-by/</link>
+      <link>http://localhost:1313/tags/group-by/</link>
       <pubDate>Tue, 03 Jul 2012 13:21:39 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/group-by/</guid>
+      <guid>http://localhost:1313/tags/group-by/</guid>
       <description></description>
     </item>
     <item>
       <title>Collation</title>
-      <link>https://grapefruitmoon.net/tags/collation/</link>
+      <link>http://localhost:1313/tags/collation/</link>
       <pubDate>Fri, 22 Jun 2012 18:00:17 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/collation/</guid>
+      <guid>http://localhost:1313/tags/collation/</guid>
       <description></description>
     </item>
     <item>
       <title>Tsql</title>
-      <link>https://grapefruitmoon.net/tags/tsql/</link>
+      <link>http://localhost:1313/tags/tsql/</link>
       <pubDate>Fri, 22 Jun 2012 18:00:17 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/tsql/</guid>
+      <guid>http://localhost:1313/tags/tsql/</guid>
       <description></description>
     </item>
     <item>
       <title>Foreign Keys</title>
-      <link>https://grapefruitmoon.net/tags/foreign-keys/</link>
+      <link>http://localhost:1313/tags/foreign-keys/</link>
       <pubDate>Mon, 11 Jun 2012 16:45:45 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/foreign-keys/</guid>
+      <guid>http://localhost:1313/tags/foreign-keys/</guid>
       <description></description>
     </item>
     <item>
       <title>Scripts</title>
-      <link>https://grapefruitmoon.net/tags/scripts/</link>
+      <link>http://localhost:1313/tags/scripts/</link>
       <pubDate>Mon, 11 Jun 2012 16:45:45 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/scripts/</guid>
+      <guid>http://localhost:1313/tags/scripts/</guid>
       <description></description>
     </item>
     <item>
       <title>Communication</title>
-      <link>https://grapefruitmoon.net/tags/communication/</link>
+      <link>http://localhost:1313/tags/communication/</link>
       <pubDate>Tue, 21 Feb 2012 18:00:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/communication/</guid>
+      <guid>http://localhost:1313/tags/communication/</guid>
       <description></description>
     </item>
     <item>
       <title>Mac</title>
-      <link>https://grapefruitmoon.net/tags/mac/</link>
+      <link>http://localhost:1313/tags/mac/</link>
       <pubDate>Tue, 21 Feb 2012 18:00:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/mac/</guid>
+      <guid>http://localhost:1313/tags/mac/</guid>
       <description></description>
     </item>
     <item>
       <title>E-Readers</title>
-      <link>https://grapefruitmoon.net/tags/e-readers/</link>
+      <link>http://localhost:1313/tags/e-readers/</link>
       <pubDate>Sun, 02 Oct 2011 19:25:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/e-readers/</guid>
+      <guid>http://localhost:1313/tags/e-readers/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>https://grapefruitmoon.net/tags/technology/</link>
+      <link>http://localhost:1313/tags/technology/</link>
       <pubDate>Sun, 02 Oct 2011 19:25:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/technology/</guid>
+      <guid>http://localhost:1313/tags/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Deployment</title>
-      <link>https://grapefruitmoon.net/tags/deployment/</link>
+      <link>http://localhost:1313/tags/deployment/</link>
       <pubDate>Fri, 19 Aug 2011 17:26:22 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/deployment/</guid>
+      <guid>http://localhost:1313/tags/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Powershell</title>
-      <link>https://grapefruitmoon.net/tags/powershell/</link>
+      <link>http://localhost:1313/tags/powershell/</link>
       <pubDate>Fri, 19 Aug 2011 17:26:22 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/powershell/</guid>
+      <guid>http://localhost:1313/tags/powershell/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>https://grapefruitmoon.net/tags/writing/</link>
+      <link>http://localhost:1313/tags/writing/</link>
       <pubDate>Fri, 12 Aug 2011 22:24:34 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/writing/</guid>
+      <guid>http://localhost:1313/tags/writing/</guid>
       <description></description>
     </item>
     <item>
       <title>Subversion</title>
-      <link>https://grapefruitmoon.net/tags/subversion/</link>
+      <link>http://localhost:1313/tags/subversion/</link>
       <pubDate>Fri, 12 Aug 2011 19:16:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/subversion/</guid>
+      <guid>http://localhost:1313/tags/subversion/</guid>
       <description></description>
     </item>
     <item>
       <title>Ipad</title>
-      <link>https://grapefruitmoon.net/tags/ipad/</link>
+      <link>http://localhost:1313/tags/ipad/</link>
       <pubDate>Wed, 06 Jul 2011 22:02:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/ipad/</guid>
+      <guid>http://localhost:1313/tags/ipad/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes</title>
-      <link>https://grapefruitmoon.net/tags/notes/</link>
+      <link>http://localhost:1313/tags/notes/</link>
       <pubDate>Wed, 06 Jul 2011 22:02:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/notes/</guid>
+      <guid>http://localhost:1313/tags/notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Minimalism</title>
-      <link>https://grapefruitmoon.net/tags/minimalism/</link>
+      <link>http://localhost:1313/tags/minimalism/</link>
       <pubDate>Fri, 01 Jul 2011 19:06:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/minimalism/</guid>
+      <guid>http://localhost:1313/tags/minimalism/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>https://grapefruitmoon.net/tags/software/</link>
+      <link>http://localhost:1313/tags/software/</link>
       <pubDate>Fri, 01 Jul 2011 19:06:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/software/</guid>
+      <guid>http://localhost:1313/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Excel</title>
-      <link>https://grapefruitmoon.net/tags/excel/</link>
+      <link>http://localhost:1313/tags/excel/</link>
       <pubDate>Thu, 05 May 2011 07:03:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/excel/</guid>
+      <guid>http://localhost:1313/tags/excel/</guid>
       <description></description>
     </item>
     <item>
       <title>Dates</title>
-      <link>https://grapefruitmoon.net/tags/dates/</link>
+      <link>http://localhost:1313/tags/dates/</link>
       <pubDate>Tue, 08 Dec 2009 14:26:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/dates/</guid>
+      <guid>http://localhost:1313/tags/dates/</guid>
       <description></description>
     </item>
     <item>
       <title>Datatypes</title>
-      <link>https://grapefruitmoon.net/tags/datatypes/</link>
+      <link>http://localhost:1313/tags/datatypes/</link>
       <pubDate>Tue, 29 Sep 2009 12:47:40 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/datatypes/</guid>
+      <guid>http://localhost:1313/tags/datatypes/</guid>
       <description></description>
     </item>
     <item>
       <title>SQLBits</title>
-      <link>https://grapefruitmoon.net/tags/sqlbits/</link>
+      <link>http://localhost:1313/tags/sqlbits/</link>
       <pubDate>Mon, 30 Mar 2009 20:51:18 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/sqlbits/</guid>
+      <guid>http://localhost:1313/tags/sqlbits/</guid>
       <description></description>
     </item>
     <item>
       <title>Training</title>
-      <link>https://grapefruitmoon.net/tags/training/</link>
+      <link>http://localhost:1313/tags/training/</link>
       <pubDate>Mon, 30 Mar 2009 20:51:18 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/training/</guid>
+      <guid>http://localhost:1313/tags/training/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>https://grapefruitmoon.net/tags/cloud/</link>
+      <link>http://localhost:1313/tags/cloud/</link>
       <pubDate>Fri, 13 Mar 2009 09:32:50 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/cloud/</guid>
+      <guid>http://localhost:1313/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>SDS</title>
-      <link>https://grapefruitmoon.net/tags/sds/</link>
+      <link>http://localhost:1313/tags/sds/</link>
       <pubDate>Fri, 13 Mar 2009 09:32:50 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/sds/</guid>
+      <guid>http://localhost:1313/tags/sds/</guid>
       <description></description>
     </item>
     <item>
       <title>64-Bit</title>
-      <link>https://grapefruitmoon.net/tags/64-bit/</link>
+      <link>http://localhost:1313/tags/64-bit/</link>
       <pubDate>Wed, 04 Feb 2009 14:29:02 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/64-bit/</guid>
+      <guid>http://localhost:1313/tags/64-bit/</guid>
       <description></description>
     </item>
     <item>
       <title>Charts</title>
-      <link>https://grapefruitmoon.net/tags/charts/</link>
+      <link>http://localhost:1313/tags/charts/</link>
       <pubDate>Wed, 21 Jan 2009 14:46:43 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/charts/</guid>
+      <guid>http://localhost:1313/tags/charts/</guid>
       <description></description>
     </item>
     <item>
       <title>SSRS</title>
-      <link>https://grapefruitmoon.net/tags/ssrs/</link>
+      <link>http://localhost:1313/tags/ssrs/</link>
       <pubDate>Wed, 21 Jan 2009 14:46:43 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/ssrs/</guid>
+      <guid>http://localhost:1313/tags/ssrs/</guid>
       <description></description>
     </item>
     <item>
       <title>Catalogs</title>
-      <link>https://grapefruitmoon.net/tags/catalogs/</link>
+      <link>http://localhost:1313/tags/catalogs/</link>
       <pubDate>Tue, 13 Jan 2009 15:25:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/catalogs/</guid>
+      <guid>http://localhost:1313/tags/catalogs/</guid>
       <description></description>
     </item>
     <item>
       <title>Stored Procs</title>
-      <link>https://grapefruitmoon.net/tags/stored-procs/</link>
+      <link>http://localhost:1313/tags/stored-procs/</link>
       <pubDate>Tue, 13 Jan 2009 15:25:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/stored-procs/</guid>
+      <guid>http://localhost:1313/tags/stored-procs/</guid>
       <description></description>
     </item>
     <item>
       <title>Tips</title>
-      <link>https://grapefruitmoon.net/tags/tips/</link>
+      <link>http://localhost:1313/tags/tips/</link>
       <pubDate>Tue, 13 Jan 2009 15:25:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/tips/</guid>
+      <guid>http://localhost:1313/tags/tips/</guid>
       <description></description>
     </item>
     <item>
       <title>SSMS</title>
-      <link>https://grapefruitmoon.net/tags/ssms/</link>
+      <link>http://localhost:1313/tags/ssms/</link>
       <pubDate>Mon, 12 Jan 2009 13:59:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/ssms/</guid>
+      <guid>http://localhost:1313/tags/ssms/</guid>
       <description></description>
     </item>
     <item>
       <title>Bugs</title>
-      <link>https://grapefruitmoon.net/tags/bugs/</link>
+      <link>http://localhost:1313/tags/bugs/</link>
       <pubDate>Wed, 07 Jan 2009 15:18:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/bugs/</guid>
+      <guid>http://localhost:1313/tags/bugs/</guid>
       <description></description>
     </item>
     <item>
       <title>Reporting Services</title>
-      <link>https://grapefruitmoon.net/tags/reporting-services/</link>
+      <link>http://localhost:1313/tags/reporting-services/</link>
       <pubDate>Wed, 07 Jan 2009 15:18:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/reporting-services/</guid>
+      <guid>http://localhost:1313/tags/reporting-services/</guid>
       <description></description>
     </item>
     <item>
       <title>Formatting</title>
-      <link>https://grapefruitmoon.net/tags/formatting/</link>
+      <link>http://localhost:1313/tags/formatting/</link>
       <pubDate>Wed, 07 Jan 2009 12:19:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/formatting/</guid>
+      <guid>http://localhost:1313/tags/formatting/</guid>
       <description></description>
     </item>
     <item>
       <title>Books</title>
-      <link>https://grapefruitmoon.net/tags/books/</link>
+      <link>http://localhost:1313/tags/books/</link>
       <pubDate>Tue, 23 Dec 2008 11:45:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/tags/books/</guid>
+      <guid>http://localhost:1313/tags/books/</guid>
       <description></description>
     </item>
   </channel>

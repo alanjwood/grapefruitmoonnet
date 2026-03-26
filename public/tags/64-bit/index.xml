@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>64-Bit on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/tags/64-bit/</link>
+    <link>http://localhost:1313/tags/64-bit/</link>
     <description>Recent content in 64-Bit on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Wed, 04 Feb 2009 14:29:02 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/tags/64-bit/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/64-bit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Excel connections in SSIS 64-bit</title>
-      <link>https://grapefruitmoon.net/excel-connections-in-ssis-64-bit/</link>
+      <link>http://localhost:1313/excel-connections-in-ssis-64-bit/</link>
       <pubDate>Wed, 04 Feb 2009 14:29:02 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/excel-connections-in-ssis-64-bit/</guid>
+      <guid>http://localhost:1313/excel-connections-in-ssis-64-bit/</guid>
       <description>&lt;p&gt;This is a new one on me&amp;hellip;when running SSIS in a 64-bit environment, Excel connections (and Access as well I presume) do not work, as the OLE DB Provider for Jet is not supported.&lt;/p&gt;&#xA;&lt;p&gt;At a current client, they are moving the server platform from Windows 2003 Server to Windows 2008 Server 64-bit. I had developed some ETL packages for them, pulling data from Excel and CSV sources. The packages get executed when the files have been unzipped and downloaded to a specified folder. This is done via simple batch files, which are along the lines of the following:&lt;/p&gt;</description>
     </item>
   </channel>

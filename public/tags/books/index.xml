@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/tags/books/</link>
+    <link>http://localhost:1313/tags/books/</link>
     <description>Recent content in Books on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Tue, 23 Dec 2008 11:45:00 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New SQL Server blog</title>
-      <link>https://grapefruitmoon.net/new-sql-server-blog/</link>
+      <link>http://localhost:1313/new-sql-server-blog/</link>
       <pubDate>Tue, 23 Dec 2008 11:45:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/new-sql-server-blog/</guid>
+      <guid>http://localhost:1313/new-sql-server-blog/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ll be posting any SQL Server related stuff in this new blog. I may even try to make it vaguely interesting! And I promise not to post my daily &amp;ldquo;I hate SSIS!&amp;rdquo;/&amp;ldquo;I love SSIS!&amp;rdquo; thoughts here. 🙂&lt;/p&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t expect any content in the next two weeks, as I&amp;rsquo;ll not be working and I hope to have a wee break from databases for the duration.&lt;/p&gt;&#xA;&lt;p&gt;But let&amp;rsquo;s make the intro post useful; go get the new SQL Server Cribsheet from Red Gate. It&amp;rsquo;s a free e-book, well worth the download. Link below&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/tags/blogs/</link>
+    <link>http://localhost:1313/tags/blogs/</link>
     <description>Recent content in Blogs on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Sun, 12 Jan 2020 11:16:53 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Year, New Site</title>
-      <link>https://grapefruitmoon.net/new-year-new-site/</link>
+      <link>http://localhost:1313/new-year-new-site/</link>
       <pubDate>Sun, 12 Jan 2020 11:16:53 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/new-year-new-site/</guid>
+      <guid>http://localhost:1313/new-year-new-site/</guid>
       <description>&lt;p&gt;When you don&amp;rsquo;t blog very often, it turns out that you don&amp;rsquo;t tend you check your blog very often either. So it was with a bit of surprise that when I had a look at my site just before Christmas, I saw no content whatsoever. I logged into WordPress and had a look at the stats. Turned out that it had been that way since May, zero visits since then. It appears that an automatic update meant the theme was not compatible, and therefore served no content. Ooft.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Goodbye Posterous, Hello WordPress</title>
-      <link>https://grapefruitmoon.net/goodbye-posterous-hello-wordpress/</link>
+      <link>http://localhost:1313/goodbye-posterous-hello-wordpress/</link>
       <pubDate>Sat, 17 Mar 2012 21:22:30 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/goodbye-posterous-hello-wordpress/</guid>
+      <guid>http://localhost:1313/goodbye-posterous-hello-wordpress/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been a Posterous user for over 3 years, having used them to host all my sparsely updated blogs. It came as a bit of a surprise this week when their founder &lt;a href=&#34;https://twitter.com/#!/agarwal&#34;&gt;Sachin Agarwal&lt;/a&gt; announced that the &lt;a href=&#34;http://blog.posterous.com/big-news&#34;&gt;company had been bought by Twitter&lt;/a&gt;. From the press releases, the acquisition appears to be more about buying the people rather than the product. All good for the Posterous staff I think, I&amp;rsquo;m pleased for them if it works out. However, where does it leave the users? This particular statement on the announcement makes me think that all development on the current Posterous Spaces platform will stop and will eventually get killed off.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stored Procs on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/tags/stored-procs/</link>
+    <link>http://localhost:1313/tags/stored-procs/</link>
     <description>Recent content in Stored Procs on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Tue, 13 Jan 2009 15:25:00 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/tags/stored-procs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/stored-procs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quick tip: Search for a term in a Stored Procedure</title>
-      <link>https://grapefruitmoon.net/quick-tip-search-for-a-term-in-a-stored-procedure/</link>
+      <link>http://localhost:1313/quick-tip-search-for-a-term-in-a-stored-procedure/</link>
       <pubDate>Tue, 13 Jan 2009 15:25:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/quick-tip-search-for-a-term-in-a-stored-procedure/</guid>
+      <guid>http://localhost:1313/quick-tip-search-for-a-term-in-a-stored-procedure/</guid>
       <description>&lt;p&gt;Need to find out if a term is referenced in any stored procedures in your database?  Use the following T-SQL statement&amp;hellip;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;select&lt;/span&gt; name, definition   &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;from&lt;/span&gt; sys.procedures p  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;inner&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;join&lt;/span&gt; sys.sql_modules m   &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt; p.object_id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; m.object_id  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;where&lt;/span&gt; m.definition &lt;span style=&#34;color:#66d9ef&#34;&gt;like&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;%search term%&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will work in SQL Server 2005 and 2008.&lt;/p&gt;</description>
     </item>
   </channel>

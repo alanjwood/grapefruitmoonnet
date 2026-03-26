@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/tags/notes/</link>
+    <link>http://localhost:1313/tags/notes/</link>
     <description>Recent content in Notes on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Wed, 06 Jul 2011 22:02:00 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Going Paperless</title>
-      <link>https://grapefruitmoon.net/going-paperless/</link>
+      <link>http://localhost:1313/going-paperless/</link>
       <pubDate>Wed, 06 Jul 2011 22:02:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/going-paperless/</guid>
+      <guid>http://localhost:1313/going-paperless/</guid>
       <description>&lt;p&gt;I decided to try a small workflow experiment this week and try to go paperless both at work and at home.  I&amp;rsquo;m a big notetaker and scribbler, and I&amp;rsquo;ve normally got two or three notepads on the go at the one time.  Having purchased a &lt;a href=&#34;http://www.macworld.co.uk/ipod-itunes/reviews/index.cfm?reviewid=3249973&#34; target=&#34;_blank&#34;&gt;Griffin stylus&lt;/a&gt; for the iPad last week, it felt like a good time to try and ditch the paper and go digital.&lt;/p&gt;&#xA;&lt;p&gt;I started the experiment while working.  Usually, I have an A5 spiral lined notebook, in which I&amp;rsquo;ll write down such things as to-do lists (for the day and/or week) and anything interesting that I come across.  I also have a few pages of A4 printer paper, which partially sit under my keyboard.  These sheets are used for sketching diagrams, flows, processes, data lists etc.  The first thing then, was to get rid of all this – the notepad and pen were left in my laptop bag, and the A4 sheets, once checked for anything I&amp;rsquo;d need, were thrown in the shredder.&lt;/p&gt;</description>
     </item>
   </channel>

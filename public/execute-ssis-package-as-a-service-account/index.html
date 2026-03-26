@@ -1,75 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="At my current client, I have a very specific set of parameters to work within regarding security. Chiefly, I need read permissions on the underlying database for a Microsoft Dynamics AX 2012 R2 installation. I have a series of SSIS packages that extract data from AX on a daily basis, executed from SQL Server Agent. The AX database, however, is hosted on a remote server and neither myself or the client team have permissions directly on this box. Our only option for connecting to the SQL Server is via a service account which has db_datareader permissions on the AX database. So how to execute the Agent jobs running as the service account? By using a Credential and a SQL Agent Proxy.">  
 
-    <head><title>Execute SSIS package as a Service Account &ndash; Grapefruitmoon.net</title>
-<meta name="description" content="Data nerd, musician, herbivore. Where I might talk about data, tech, music, sports and other related nonsense.">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8"/>
-
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>
+    
+      Execute SSIS package as a Service Account
+    
+  </title>
 
 
-<link rel="stylesheet" href="https://grapefruitmoon.net/css/palettes/gruvbox-dark.css">
-<link rel="stylesheet" href="https://grapefruitmoon.net/css/risotto.css">
-<link rel="stylesheet" href="https://grapefruitmoon.net/css/custom.css">
-
-
-
-
-
-
-
-
-
-
-
-
-<meta property="og:title" content="Execute SSIS package as a Service Account &ndash; Grapefruitmoon.net" />
-<meta property="og:url" content="https://grapefruitmoon.net/execute-ssis-package-as-a-service-account/" />
-
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:1313/" />
   
-    <meta property="og:description" content="Data nerd, musician, herbivore. Where I might talk about data, tech, music, sports and other related nonsense."/> 
   
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.900100e9dbee2d56c58fac8bb717037cae7e26a9c36c29d2ff587bdd65f0cbbe510b41d81a3bb234919cdfdc7550d786b2fab70c8fc507772d732fe097106d12.css" integrity="sha512-kAEA6dvuLVbFj6yLtxcDfK5&#43;JqnDbCnS/1h73WXwy75RC0HYGjuyNJGc39x1UNeGsvq3DI/FB3ctcy/glxBtEg==" />
+  
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="http://localhost:1313/">..</a>
 
-<meta property="og:locale" content="en" />
-<meta property="og:image" content="" /></head>
 
-    <body>
-        <div class="page">
+<article>
+    <p class="post-meta">
+        <time datetime="2014-01-30 11:58:22 &#43;0000 GMT">
+            2014-01-30
+        </time>
+    </p>
 
-            <header class="page__header"><nav class="page__nav main-nav">
-    <ul>
-      <li class="nomarker"><h1 class="page__logo"><a href="https://grapefruitmoon.net/" class="page__logo-inner">Grapefruitmoon.net</a></h1></li>
+    <h1>Execute SSIS package as a Service Account</h1>
+
     
-    
-    <li class="main-nav__item"><a class="nav-main-item" href="https://grapefruitmoon.net/posts/" title="">Blog</a></li>
-    
-    <li class="main-nav__item"><a class="nav-main-item" href="https://grapefruitmoon.net/about/" title="">About</a></li>
-    
-    </ul>
-</nav>
 
-</header>
-
-            <section class="page__body">
-    <header class="content__header">
-        <h1>Execute SSIS package as a Service Account</h1>
-    </header>
-    <div class="content__body">
-        <p>At my current client, I have a very specific set of parameters to work within regarding security. Chiefly, I need read permissions on the underlying database for a Microsoft Dynamics AX 2012 R2 installation. I have a series of SSIS packages that extract data from AX on a daily basis, executed from SQL Server Agent. The AX database, however, is hosted on a remote server and neither myself or the client team have permissions directly on this box. Our only option for connecting to the SQL Server is via a service account which has db_datareader permissions on the AX database. So how to execute the Agent jobs running as the service account? By using a Credential and a SQL Agent Proxy.</p>
+    <p>At my current client, I have a very specific set of parameters to work within regarding security. Chiefly, I need read permissions on the underlying database for a Microsoft Dynamics AX 2012 R2 installation. I have a series of SSIS packages that extract data from AX on a daily basis, executed from SQL Server Agent. The AX database, however, is hosted on a remote server and neither myself or the client team have permissions directly on this box. Our only option for connecting to the SQL Server is via a service account which has db_datareader permissions on the AX database. So how to execute the Agent jobs running as the service account? By using a Credential and a SQL Agent Proxy.</p>
 <p><strong>Credentials</strong></p>
 <p>The first step is to set up a security Credential on the SQL Server that executes the jobs. These can be found under Security&gt;Credentials in SSMS (see Figure 1). The Credential identity should be set to be the name (including the domain)of the Service Account, and must include the password. To create the Credential in T-SQL:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> CREDENTIAL <span style="color:#f92672">&lt;</span> CredentialName <span style="color:#f92672">&gt;</span>
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">WITH</span> <span style="color:#66d9ef">IDENTITY</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&lt;domain&gt;\&lt;service account&gt;&#39;</span>
 </span></span><span style="display:flex;"><span>		,SECRET <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&lt;password&gt;&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">GO</span>
-</span></span></code></pre></div><p><a href="http://www.grapefruitmoon.net/img/wp-content/uploads/2014/01/Credentials.jpg"><img src="https://grapefruitmoon.net/img/wp-content/uploads/2014/01/Credentials.jpg" alt="Credentials"></a></p>
+</span></span></code></pre></div><p><a href="http://www.grapefruitmoon.net/img/wp-content/uploads/2014/01/Credentials.jpg"><img src="http://localhost:1313/img/wp-content/uploads/2014/01/Credentials.jpg" alt="Credentials"></a></p>
 <p>Figure 1</p>
 <p><strong>Proxies</strong></p>
 <p>Next, a Proxy for SSIS must be created in the SQL Agent. These are found in SQL Server Agent&gt;Proxies&gt;SSIS Package Execution (Figure 2). To create a proxy in T-SQL (note that subsystem_id 11 specifies that it is for SSIS Package Execution):</p>
@@ -84,11 +58,11 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">EXEC</span> msdb.dbo.sp_grant_proxy_to_subsystem <span style="color:#f92672">@</span>proxy_name <span style="color:#f92672">=</span> N<span style="color:#e6db74">&#39;&lt;ProxyName&gt;&#39;</span>
 </span></span><span style="display:flex;"><span>	,<span style="color:#f92672">@</span>subsystem_id <span style="color:#f92672">=</span> <span style="color:#ae81ff">11</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">GO</span>
-</span></span></code></pre></div><p><a href="http://www.grapefruitmoon.net/img/wp-content/uploads/2014/01/Proxy.jpg"><img src="https://grapefruitmoon.net/img/wp-content/uploads/2014/01/Proxy.jpg" alt="Proxy"></a></p>
+</span></span></code></pre></div><p><a href="http://www.grapefruitmoon.net/img/wp-content/uploads/2014/01/Proxy.jpg"><img src="http://localhost:1313/img/wp-content/uploads/2014/01/Proxy.jpg" alt="Proxy"></a></p>
 <p>Figure 2</p>
 <p><strong>Agent Job</strong></p>
 <p>Finally, the Agent job needs to be set up to run as the Proxy. In the Run As drop-down in the relevant Job Step, select the newly created Proxy (see Figure 3).</p>
-<p><a href="http://www.grapefruitmoon.net/img/wp-content/uploads/2014/01/Agent.jpg"><img src="https://grapefruitmoon.net/img/wp-content/uploads/2014/01/Agent.jpg" alt="Agent"></a></p>
+<p><a href="http://www.grapefruitmoon.net/img/wp-content/uploads/2014/01/Agent.jpg"><img src="http://localhost:1313/img/wp-content/uploads/2014/01/Agent.jpg" alt="Agent"></a></p>
 <p>Figure 3</p>
 <p><strong>References</strong></p>
 <p><a href="http://technet.microsoft.com/en-us/library/ms161950.aspx">Credentials</a></p>
@@ -96,124 +70,16 @@
 <p><a href="http://technet.microsoft.com/en-us/library/ms188763.aspx">sp_add_proxy</a></p>
 <p><a href="http://technet.microsoft.com/en-us/library/ms186760.aspx">sp_grant_proxy_to_subsystem</a></p>
 
-    </div>
-    <footer class="content__footer"></footer>
+</article>
 
-            </section>
-
-            <section class="page__aside">
-                <div class="aside__about">
-<div class="aside__about">
-    <span class="about__logo" role="img">🍊</span>&nbsp;
+                
     
-<h1 class="about__title">Grapefruitmoon.net</h1>
-<p class="about__description">Data nerd, musician, herbivore. Where I might talk about data, tech, music, sports and other related nonsense.</p>
-</div>
+    
+        © Alan Wood · <a href="https://bsky.app/profile/alanwood.me">Bluesky</a>
+    
 
 
-<ul class="aside__social-links">
-    
-    <li>
-        <a href="https://bsky.app/profile/alanwood.me" rel="me" aria-label="Bluesky" title="Bluesky"><i class="fa-brands fa-bluesky" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-</ul>
-</div>
-                <hr>
-                <div class="aside__content">
-    
-    
-        <p>
-            By alan, 
-            January 30, 2014
-        </p>
-    
-
-    
-
-    <hr>
-    <div class="aside__recent">
-        <h3>Recent Posts</h3>
-        <ul>
-        
-        
-            
-            <li>
-                <a href="https://grapefruitmoon.net/new-year-new-site/">New Year, New Site</a>
-                <br>
-                <small>Jan 12, 2020</small>
-            </li>
-            
-        
-            
-            <li>
-                <a href="https://grapefruitmoon.net/return-and-recap/">Return and Recap</a>
-                <br>
-                <small>Apr 4, 2018</small>
-            </li>
-            
-        
-            
-            <li>
-                <a href="https://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/">Women’s Euro Qualifiers – stats in Power BI</a>
-                <br>
-                <small>Jun 1, 2016</small>
-            </li>
-            
-        
-            
-            <li>
-                <a href="https://grapefruitmoon.net/sql-server-developer-edition-now-free/">SQL Server Developer Edition – now free!</a>
-                <br>
-                <small>Apr 4, 2016</small>
-            </li>
-            
-        
-            
-            <li>
-                <a href="https://grapefruitmoon.net/analysing-football-data-in-power-bi/">Analysing Football Data in Power BI</a>
-                <br>
-                <small>Mar 17, 2016</small>
-            </li>
-            
-        
-        </ul>
-    </div>
-
-                </div>
-            </section>
-
-            <footer class="page__footer"><p>
-    
-    
-    
-    
-    
-    
-      
-    
-      
-    
-    
-    
-      
-      
-          
-            
-            
-                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
-
-            
-          
-      
-    
-</p>
-<br /><br />
-<p class="copyright">© Alan Wood</p>
-<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
-</footer>
-
-        </div>
+            </div>
+        </main>
     </body>
-
 </html>

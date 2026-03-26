@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Powershell on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/tags/powershell/</link>
+    <link>http://localhost:1313/tags/powershell/</link>
     <description>Recent content in Powershell on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Fri, 19 Aug 2011 17:26:22 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Powershell Deployment Script Update</title>
-      <link>https://grapefruitmoon.net/powershell-deployment-script-update/</link>
+      <link>http://localhost:1313/powershell-deployment-script-update/</link>
       <pubDate>Fri, 19 Aug 2011 17:26:22 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/powershell-deployment-script-update/</guid>
+      <guid>http://localhost:1313/powershell-deployment-script-update/</guid>
       <description>&lt;p&gt;Since last weeks &lt;a href=&#34;http://www.grapefruitmoon.net/automating-db-and-ssis-builds-from-source-control/&#34;&gt;post on automated DB and ETL deployment builds with Powershell&lt;/a&gt;, I’ve made a couple of small but useful changes to the Powershell script.&lt;/p&gt;&#xA;&lt;p&gt;The distinct parts of the script are now encapsulated in parameterised functions. The end goal of this is to be able to turn the main script into a Powershell Module that could be installed and used when required. So now there are three functions, GetHeadFromSVN, SyncDB and DeployPackages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Automating DB and SSIS builds from source control</title>
-      <link>https://grapefruitmoon.net/automating-db-and-ssis-builds-from-source-control/</link>
+      <link>http://localhost:1313/automating-db-and-ssis-builds-from-source-control/</link>
       <pubDate>Fri, 12 Aug 2011 19:16:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/automating-db-and-ssis-builds-from-source-control/</guid>
+      <guid>http://localhost:1313/automating-db-and-ssis-builds-from-source-control/</guid>
       <description>&lt;p&gt;This week I’ve been working on a new branch of a data warehouse project. To make deployment to development environments easier I decided I’d attempt to get some sort of continuous integration/automated builds to our dev server up and running. Doing this sort of thing has never been particularly straightforward for database projects, but with the fantastic &lt;a href=&#34;http://www.red-gate.com/products/sql-development/sql-compare/&#34;&gt;SQL Compare&lt;/a&gt; command line tools and &lt;a href=&#34;http://www.red-gate.com/products/sql-development/sql-source-control/&#34;&gt;SQL Source Control&lt;/a&gt; from &lt;a href=&#34;http://www.red-gate.com&#34;&gt;Red Gate&lt;/a&gt;, this task is made so much easier.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tsql on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/tags/tsql/</link>
+    <link>http://localhost:1313/tags/tsql/</link>
     <description>Recent content in Tsql on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Fri, 22 Jun 2012 18:00:17 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/tags/tsql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/tsql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Case-sensitivity in a T-SQL WHERE clause</title>
-      <link>https://grapefruitmoon.net/case-sensitivity-in-a-t-sql-where-clause/</link>
+      <link>http://localhost:1313/case-sensitivity-in-a-t-sql-where-clause/</link>
       <pubDate>Fri, 22 Jun 2012 18:00:17 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/case-sensitivity-in-a-t-sql-where-clause/</guid>
+      <guid>http://localhost:1313/case-sensitivity-in-a-t-sql-where-clause/</guid>
       <description>&lt;p&gt;I was asked today if it was possible to use a case-sensitive LIKE statement in a WHERE clause. The default SQL Server collation is case-insensitive, but the collation used can be specified in a query. To return the collation of the current database:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; DATABASEPROPERTYEX(DB_NAME(),&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Collation&amp;#39;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In my case, this returned Latin1_General_CI_AS. The case-sensitive version of this is Latin1_General_CS_AS. To use this collation for a column, specify it after the column using the COLLATE statement. For example, I have a table called Groups, with 2 rows. The first row has a GroupName of &amp;ldquo;Admin&amp;rdquo;, and the value in the second row is “Standard&amp;quot;. The following query returns both rows:&lt;/p&gt;</description>
     </item>
     <item>
       <title>T-SQL to drop all Foreign Keys that reference a table</title>
-      <link>https://grapefruitmoon.net/t-sql-to-drop-all-foreign-keys-that-reference-a-table/</link>
+      <link>http://localhost:1313/t-sql-to-drop-all-foreign-keys-that-reference-a-table/</link>
       <pubDate>Mon, 11 Jun 2012 16:45:45 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/t-sql-to-drop-all-foreign-keys-that-reference-a-table/</guid>
+      <guid>http://localhost:1313/t-sql-to-drop-all-foreign-keys-that-reference-a-table/</guid>
       <description>&lt;p&gt;In a recent data migration project, I had a task to re-number some primary key columns for certain tables, so that there was no key overlap when a number of systems were combined. Part of this process involved identifying and dropping all the foreign keys that referenced the primary key on the tables that were being changed, then adding them again after the updates were completed. To save a bit of time, I knocked up this little script to generate the DROP and ALTER statements for the referencing foreign keys for a given table.&lt;/p&gt;</description>
     </item>
     <item>
       <title>T-SQL Tuesday: Return a range of dates between 2 days</title>
-      <link>https://grapefruitmoon.net/t-sql-tuesday-return-a-range-of-dates-between-2-days/</link>
+      <link>http://localhost:1313/t-sql-tuesday-return-a-range-of-dates-between-2-days/</link>
       <pubDate>Tue, 08 Dec 2009 14:26:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/t-sql-tuesday-return-a-range-of-dates-between-2-days/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://grapefruitmoon.net/img/wp-content/uploads/2009/12/results1.png&#34; alt=&#34;results1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Just after Adam Machanic announced the first of the T-SQL Tuesday blog events, I was asked a question about how to return a list of all the dates between two given days.  I came across some good forum posts about how to do so, many of which utilised numbers tables.  I wanted to avoid that (nothing against them, just wanted something that was stand-alone), and figured that a CTE would be the best way to go; in fact someone had posted such a method, a little of which I have used here (if I can find the post again I&amp;rsquo;ll give them a mention in the comments!).&lt;/p&gt;</description>
+      <guid>http://localhost:1313/t-sql-tuesday-return-a-range-of-dates-between-2-days/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/wp-content/uploads/2009/12/results1.png&#34; alt=&#34;results1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Just after Adam Machanic announced the first of the T-SQL Tuesday blog events, I was asked a question about how to return a list of all the dates between two given days.  I came across some good forum posts about how to do so, many of which utilised numbers tables.  I wanted to avoid that (nothing against them, just wanted something that was stand-alone), and figured that a CTE would be the best way to go; in fact someone had posted such a method, a little of which I have used here (if I can find the post again I&amp;rsquo;ll give them a mention in the comments!).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Identify the T-SQL being run by a SPID</title>
-      <link>https://grapefruitmoon.net/identify-the-t-sql-being-run-by-a-spid/</link>
+      <link>http://localhost:1313/identify-the-t-sql-being-run-by-a-spid/</link>
       <pubDate>Fri, 02 Oct 2009 14:12:33 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/identify-the-t-sql-being-run-by-a-spid/</guid>
+      <guid>http://localhost:1313/identify-the-t-sql-being-run-by-a-spid/</guid>
       <description>&lt;p&gt;This is one I used to use a lot, and had cause to use it this morning. An ETL process to truncate a staging table was being blocked by another process on the server, and I needed to identify exactly what command the blocking process was attempting to execute. I found the SPID by executing sp_who2, which showed me the SPID that was blocking the truncate command (in this case SPID 54). I then executed the following command to find out exactly what command was causing the block to happen:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quick tip: Search for a term in a Stored Procedure</title>
-      <link>https://grapefruitmoon.net/quick-tip-search-for-a-term-in-a-stored-procedure/</link>
+      <link>http://localhost:1313/quick-tip-search-for-a-term-in-a-stored-procedure/</link>
       <pubDate>Tue, 13 Jan 2009 15:25:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/quick-tip-search-for-a-term-in-a-stored-procedure/</guid>
+      <guid>http://localhost:1313/quick-tip-search-for-a-term-in-a-stored-procedure/</guid>
       <description>&lt;p&gt;Need to find out if a term is referenced in any stored procedures in your database?  Use the following T-SQL statement&amp;hellip;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;select&lt;/span&gt; name, definition   &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;from&lt;/span&gt; sys.procedures p  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;inner&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;join&lt;/span&gt; sys.sql_modules m   &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt; p.object_id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; m.object_id  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;where&lt;/span&gt; m.definition &lt;span style=&#34;color:#66d9ef&#34;&gt;like&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;%search term%&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will work in SQL Server 2005 and 2008.&lt;/p&gt;</description>
     </item>
   </channel>

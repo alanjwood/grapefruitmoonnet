@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Excel on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/tags/excel/</link>
+    <link>http://localhost:1313/tags/excel/</link>
     <description>Recent content in Excel on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Thu, 05 May 2011 07:03:00 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/excel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deleting from Excel in SSIS – a workaround</title>
-      <link>https://grapefruitmoon.net/deleting-from-excel-in-ssis-a-workaround/</link>
+      <link>http://localhost:1313/deleting-from-excel-in-ssis-a-workaround/</link>
       <pubDate>Thu, 05 May 2011 07:03:00 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/deleting-from-excel-in-ssis-a-workaround/</guid>
+      <guid>http://localhost:1313/deleting-from-excel-in-ssis-a-workaround/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s a quick how-to post, a little work-around for an issue with writing to Excel from SSIS.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been asked a few times how to use SSIS to delete data from an Excel spreadsheet, then write data into that blank spreadsheet, while maintaining the column headers in the first row.  There is no particularly straightforward way of doing so in SSIS, as attempting a delete statement on the Excel sheet will either remove the data in all rows (including the header) or throw an error as the DELETE statement is not supported.  There is a method that I use, which I will step through here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Excel connections in SSIS 64-bit</title>
-      <link>https://grapefruitmoon.net/excel-connections-in-ssis-64-bit/</link>
+      <link>http://localhost:1313/excel-connections-in-ssis-64-bit/</link>
       <pubDate>Wed, 04 Feb 2009 14:29:02 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/excel-connections-in-ssis-64-bit/</guid>
+      <guid>http://localhost:1313/excel-connections-in-ssis-64-bit/</guid>
       <description>&lt;p&gt;This is a new one on me&amp;hellip;when running SSIS in a 64-bit environment, Excel connections (and Access as well I presume) do not work, as the OLE DB Provider for Jet is not supported.&lt;/p&gt;&#xA;&lt;p&gt;At a current client, they are moving the server platform from Windows 2003 Server to Windows 2008 Server 64-bit. I had developed some ETL packages for them, pulling data from Excel and CSV sources. The packages get executed when the files have been unzipped and downloaded to a specified folder. This is done via simple batch files, which are along the lines of the following:&lt;/p&gt;</description>
     </item>
   </channel>

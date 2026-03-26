@@ -1,68 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="In a recent data migration project, I had a task to re-number some primary key columns for certain tables, so that there was no key overlap when a number of systems were combined. Part of this process involved identifying and dropping all the foreign keys that referenced the primary key on the tables that were being changed, then adding them again after the updates were completed. To save a bit of time, I knocked up this little script to generate the DROP and ALTER statements for the referencing foreign keys for a given table.">  
 
-    <head><title>T-SQL to drop all Foreign Keys that reference a table &ndash; Grapefruitmoon.net</title>
-<meta name="description" content="Data nerd, musician, herbivore. Where I might talk about data, tech, music, sports and other related nonsense.">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8"/>
-
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>
+    
+      T-SQL to drop all Foreign Keys that reference a table
+    
+  </title>
 
 
-<link rel="stylesheet" href="https://grapefruitmoon.net/css/palettes/gruvbox-dark.css">
-<link rel="stylesheet" href="https://grapefruitmoon.net/css/risotto.css">
-<link rel="stylesheet" href="https://grapefruitmoon.net/css/custom.css">
-
-
-
-
-
-
-
-
-
-
-
-
-<meta property="og:title" content="T-SQL to drop all Foreign Keys that reference a table &ndash; Grapefruitmoon.net" />
-<meta property="og:url" content="https://grapefruitmoon.net/t-sql-to-drop-all-foreign-keys-that-reference-a-table/" />
-
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:1313/" />
   
-    <meta property="og:description" content="Data nerd, musician, herbivore. Where I might talk about data, tech, music, sports and other related nonsense."/> 
   
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.900100e9dbee2d56c58fac8bb717037cae7e26a9c36c29d2ff587bdd65f0cbbe510b41d81a3bb234919cdfdc7550d786b2fab70c8fc507772d732fe097106d12.css" integrity="sha512-kAEA6dvuLVbFj6yLtxcDfK5&#43;JqnDbCnS/1h73WXwy75RC0HYGjuyNJGc39x1UNeGsvq3DI/FB3ctcy/glxBtEg==" />
+  
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="http://localhost:1313/">..</a>
 
-<meta property="og:locale" content="en" />
-<meta property="og:image" content="" /></head>
 
-    <body>
-        <div class="page">
+<article>
+    <p class="post-meta">
+        <time datetime="2012-06-11 16:45:45 &#43;0000 &#43;0000">
+            2012-06-11
+        </time>
+    </p>
 
-            <header class="page__header"><nav class="page__nav main-nav">
-    <ul>
-      <li class="nomarker"><h1 class="page__logo"><a href="https://grapefruitmoon.net/" class="page__logo-inner">Grapefruitmoon.net</a></h1></li>
+    <h1>T-SQL to drop all Foreign Keys that reference a table</h1>
+
     
-    
-    <li class="main-nav__item"><a class="nav-main-item" href="https://grapefruitmoon.net/posts/" title="">Blog</a></li>
-    
-    <li class="main-nav__item"><a class="nav-main-item" href="https://grapefruitmoon.net/about/" title="">About</a></li>
-    
-    </ul>
-</nav>
 
-</header>
-
-            <section class="page__body">
-    <header class="content__header">
-        <h1>T-SQL to drop all Foreign Keys that reference a table</h1>
-    </header>
-    <div class="content__body">
-        <p>In a recent data migration project, I had a task to re-number some primary key columns for certain tables, so that there was no key overlap when a number of systems were combined. Part of this process involved identifying and dropping all the foreign keys that referenced the primary key on the tables that were being changed, then adding them again after the updates were completed. To save a bit of time, I knocked up this little script to generate the DROP and ALTER statements for the referencing foreign keys for a given table.</p>
+    <p>In a recent data migration project, I had a task to re-number some primary key columns for certain tables, so that there was no key overlap when a number of systems were combined. Part of this process involved identifying and dropping all the foreign keys that referenced the primary key on the tables that were being changed, then adding them again after the updates were completed. To save a bit of time, I knocked up this little script to generate the DROP and ALTER statements for the referencing foreign keys for a given table.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;ALTER TABLE &#39;</span> <span style="color:#f92672">+</span> s.name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;.&#39;</span> <span style="color:#f92672">+</span> OBJECT_NAME(fk.parent_object_id)
 </span></span><span style="display:flex;"><span>		<span style="color:#f92672">+</span> <span style="color:#e6db74">&#39; DROP CONSTRAINT &#39;</span> <span style="color:#f92672">+</span> fk.NAME <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39; ;&#39;</span> <span style="color:#66d9ef">AS</span> DropStatement,
@@ -80,124 +54,16 @@
 </span></span><span style="display:flex;"><span>	OBJECT_NAME(fk.referenced_object_id) <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;account&#39;</span>
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">AND</span> ss.name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;dbo&#39;</span>;
 </span></span></code></pre></div>
-    </div>
-    <footer class="content__footer"></footer>
+</article>
 
-            </section>
-
-            <section class="page__aside">
-                <div class="aside__about">
-<div class="aside__about">
-    <span class="about__logo" role="img">🍊</span>&nbsp;
+                
     
-<h1 class="about__title">Grapefruitmoon.net</h1>
-<p class="about__description">Data nerd, musician, herbivore. Where I might talk about data, tech, music, sports and other related nonsense.</p>
-</div>
+    
+        © Alan Wood · <a href="https://bsky.app/profile/alanwood.me">Bluesky</a>
+    
 
 
-<ul class="aside__social-links">
-    
-    <li>
-        <a href="https://bsky.app/profile/alanwood.me" rel="me" aria-label="Bluesky" title="Bluesky"><i class="fa-brands fa-bluesky" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-</ul>
-</div>
-                <hr>
-                <div class="aside__content">
-    
-    
-        <p>
-            By alan, 
-            June 11, 2012
-        </p>
-    
-
-    
-
-    <hr>
-    <div class="aside__recent">
-        <h3>Recent Posts</h3>
-        <ul>
-        
-        
-            
-            <li>
-                <a href="https://grapefruitmoon.net/new-year-new-site/">New Year, New Site</a>
-                <br>
-                <small>Jan 12, 2020</small>
-            </li>
-            
-        
-            
-            <li>
-                <a href="https://grapefruitmoon.net/return-and-recap/">Return and Recap</a>
-                <br>
-                <small>Apr 4, 2018</small>
-            </li>
-            
-        
-            
-            <li>
-                <a href="https://grapefruitmoon.net/womens-euro-qualifiers-stats-in-power-bi/">Women’s Euro Qualifiers – stats in Power BI</a>
-                <br>
-                <small>Jun 1, 2016</small>
-            </li>
-            
-        
-            
-            <li>
-                <a href="https://grapefruitmoon.net/sql-server-developer-edition-now-free/">SQL Server Developer Edition – now free!</a>
-                <br>
-                <small>Apr 4, 2016</small>
-            </li>
-            
-        
-            
-            <li>
-                <a href="https://grapefruitmoon.net/analysing-football-data-in-power-bi/">Analysing Football Data in Power BI</a>
-                <br>
-                <small>Mar 17, 2016</small>
-            </li>
-            
-        
-        </ul>
-    </div>
-
-                </div>
-            </section>
-
-            <footer class="page__footer"><p>
-    
-    
-    
-    
-    
-    
-      
-    
-      
-    
-    
-    
-      
-      
-          
-            
-            
-                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
-
-            
-          
-      
-    
-</p>
-<br /><br />
-<p class="copyright">© Alan Wood</p>
-<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
-</footer>
-
-        </div>
+            </div>
+        </main>
     </body>
-
 </html>

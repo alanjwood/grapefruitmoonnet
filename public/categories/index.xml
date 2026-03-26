@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Sun, 12 Jan 2020 11:16:53 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech</title>
-      <link>https://grapefruitmoon.net/categories/tech/</link>
+      <link>http://localhost:1313/categories/tech/</link>
       <pubDate>Sun, 12 Jan 2020 11:16:53 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/categories/tech/</guid>
+      <guid>http://localhost:1313/categories/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>https://grapefruitmoon.net/categories/data/</link>
+      <link>http://localhost:1313/categories/data/</link>
       <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/categories/data/</guid>
+      <guid>http://localhost:1313/categories/data/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL Server</title>
-      <link>https://grapefruitmoon.net/categories/sql-server/</link>
+      <link>http://localhost:1313/categories/sql-server/</link>
       <pubDate>Wed, 04 Apr 2018 22:45:11 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/categories/sql-server/</guid>
+      <guid>http://localhost:1313/categories/sql-server/</guid>
       <description></description>
     </item>
     <item>
       <title>Sports</title>
-      <link>https://grapefruitmoon.net/categories/sports/</link>
+      <link>http://localhost:1313/categories/sports/</link>
       <pubDate>Wed, 01 Jun 2016 17:13:04 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/categories/sports/</guid>
+      <guid>http://localhost:1313/categories/sports/</guid>
       <description></description>
     </item>
   </channel>

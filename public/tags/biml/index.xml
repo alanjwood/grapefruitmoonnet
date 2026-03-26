@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Biml on Grapefruitmoon.net</title>
-    <link>https://grapefruitmoon.net/tags/biml/</link>
+    <link>http://localhost:1313/tags/biml/</link>
     <description>Recent content in Biml on Grapefruitmoon.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
     <lastBuildDate>Mon, 04 Aug 2014 15:15:14 +0000</lastBuildDate>
-    <atom:link href="https://grapefruitmoon.net/tags/biml/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/biml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSIS – Change the Protection Level for all Packages in a Project</title>
-      <link>https://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</link>
+      <link>http://localhost:1313/ssis-change-the-protection-level-for-all-packages-in-a-project/</link>
       <pubDate>Mon, 04 Aug 2014 15:15:14 +0000</pubDate>
-      <guid>https://grapefruitmoon.net/ssis-change-the-protection-level-for-all-packages-in-a-project/</guid>
+      <guid>http://localhost:1313/ssis-change-the-protection-level-for-all-packages-in-a-project/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s a quick one I found this morning while fixing an execution issue with one of my SSIS packages. I needed to change the Protection Level of all the packages in a project from &lt;em&gt;Encrypt With User Key&lt;/em&gt; to &lt;em&gt;Don&amp;rsquo;t Save Sensitive&lt;/em&gt;. The project contains over 30 packages, and I didn&amp;rsquo;t really fancy opening each one, navigating to the properties and amending the Protection Level for each one - that&amp;rsquo;s too time-consuming and frankly, boring. I initially figured I&amp;rsquo;d write a PowerShell or Python script to amend the relevant XML in each of the .dtsx files. But a quick Google came up with &lt;a href=&#34;http://technet.microsoft.com/en-us/library/cc879310.aspx&#34;&gt;this MS Technet page&lt;/a&gt;, which details how to make the change via the command line, for both individual packages and for all packages within a project.&lt;/p&gt;</description>
     </item>
   </channel>

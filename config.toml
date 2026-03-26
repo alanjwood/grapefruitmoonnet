@@ -1,5 +1,5 @@
 baseURL = "https://grapefruitmoon.net/"
-theme = "risotto"
+theme = "nostyleplease"
 title = "Grapefruitmoon.net"
 author = "Alan Wood"
 copyright = "© Alan Wood"
@@ -14,9 +14,13 @@ pagerSize = 10
 
 [params]
 noindex = false
+mainSections = ["posts"]
 
 [params.theme]
 palette = "gruvbox-dark"
+
+[params.theme_config]
+isShowFooter = true
 
 # Sidebar: about/bio
 [params.about]
