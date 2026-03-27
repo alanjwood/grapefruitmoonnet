@@ -18,7 +18,10 @@
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "Bash(identify:*)",
-      "Bash(file:*)"
+      "Bash(file:*)",
+      "Bash(git submodule:*)",
+      "Bash(git rm:*)",
+      "Bash(rm -rf themes/nostyleplease/.git)"
     ]
   }
 }

@@ -2,11 +2,15 @@
 title: About
 author: alan
 type: page
-date: 2012-03-14T22:11:49+00:00
+date: 2026-03-27
 
 ---
-I’m Alan and Grapefruitmoon is my little online home. As you may well have seen, I blog in fits and starts. I don’t have a particular theme for the blog, I just tend to write about whatever is floating my boat at the time of writing. But things you’ll probably see me coming back to are my main passions in life: tech stuff, music, sports and other geeky pursuits.
+I'm Alan (or Woody if you like). Grapefruitmoon is my corner of the internet — no particular theme, just whatever's on my mind.
 
-Professionally, I’m a database architect/developer/analyst/whatever you want to call me. I run a data consultancy focusing primarily on the Microsoft BI Stack & Azure. 
+Professionally, I'm a data consultant based in Scotland, working primarily with Microsoft Fabric and the wider data stack, with a growing interest in open source tooling. I run my own consultancy.
 
-You can find me on Bluesky [here](https://bsky.app/profile/alanwood.me).
+Outside of work: I play bass in a hard rock covers band, I'm getting back into creative writing after a long gap, and I have an extensive vinyl and CD collection that takes up more space than it should. I also play too much Dead By Daylight.
+
+You'll probably find posts here about data and tech, music, writing, and whatever else I'm currently obsessed with. I make no promises about frequency.
+
+Find me on [Bluesky](https://bsky.app/profile/alanwood.me).

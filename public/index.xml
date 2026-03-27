@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
-    <lastBuildDate>Sun, 12 Jan 2020 11:16:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 09:04:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I&#39;m Back Baby!</title>
+      <link>http://localhost:1313/posts/2026-02-17-im-back-baby/</link>
+      <pubDate>Fri, 27 Mar 2026 09:04:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-02-17-im-back-baby/</guid>
+      <description>&lt;p&gt;Ah, just the six years since I last played around with this then. Oh well. Miss me??&lt;/p&gt;&#xA;&lt;p&gt;What&amp;rsquo;s brought me back? Well I&amp;rsquo;ve had a hankering to write again and figured I might as well stick it on here. Don&amp;rsquo;t care if it gets read or not. It&amp;rsquo;s a me project. There&amp;rsquo;s no strategy here, no agenda. I like simple text posts. I might post the odd photo. What I probably won&amp;rsquo;t do is any code/SQL deep dives like I&amp;rsquo;ve done before. That&amp;rsquo;s just not something that interests me enough these days. I&amp;rsquo;ll keep some of the old stuff up for a while, but they might go too.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Alan (or Woody if you like). Grapefruitmoon is my corner of the internet — no particular theme, just whatever&amp;rsquo;s on my mind.&lt;/p&gt;&#xA;&lt;p&gt;Professionally, I&amp;rsquo;m a data consultant based in Scotland, working primarily with Microsoft Fabric and the wider data stack, with a growing interest in open source tooling. I run my own consultancy.&lt;/p&gt;&#xA;&lt;p&gt;Outside of work: I play bass in a hard rock covers band, I&amp;rsquo;m getting back into creative writing after a long gap, and I have an extensive vinyl and CD collection that takes up more space than it should. I also play too much Dead By Daylight.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>New Year, New Site</title>
       <link>http://localhost:1313/new-year-new-site/</link>
@@ -113,13 +127,6 @@
       <pubDate>Sat, 17 Mar 2012 21:22:30 +0000</pubDate>
       <guid>http://localhost:1313/goodbye-posterous-hello-wordpress/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been a Posterous user for over 3 years, having used them to host all my sparsely updated blogs. It came as a bit of a surprise this week when their founder &lt;a href=&#34;https://twitter.com/#!/agarwal&#34;&gt;Sachin Agarwal&lt;/a&gt; announced that the &lt;a href=&#34;http://blog.posterous.com/big-news&#34;&gt;company had been bought by Twitter&lt;/a&gt;. From the press releases, the acquisition appears to be more about buying the people rather than the product. All good for the Posterous staff I think, I&amp;rsquo;m pleased for them if it works out. However, where does it leave the users? This particular statement on the announcement makes me think that all development on the current Posterous Spaces platform will stop and will eventually get killed off.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Wed, 14 Mar 2012 22:11:49 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I’m Alan and Grapefruitmoon is my little online home. As you may well have seen, I blog in fits and starts. I don’t have a particular theme for the blog, I just tend to write about whatever is floating my boat at the time of writing. But things you’ll probably see me coming back to are my main passions in life: tech stuff, music, sports and other geeky pursuits.&lt;/p&gt;&#xA;&lt;p&gt;Professionally, I’m a database architect/developer/analyst/whatever you want to call me. I run a data consultancy focusing primarily on the Microsoft BI Stack &amp;amp; Azure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>I chat, I message</title>

@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2020-01-12T11:16:53+00:00</lastmod>
+    <lastmod>2026-03-27T09:04:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2026-02-17-im-back-baby/</loc>
+    <lastmod>2026-03-27T09:04:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/personal/</loc>
+    <lastmod>2026-03-27T09:04:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-03-27T09:04:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-03-27T09:04:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/blogs/</loc>
     <lastmod>2020-01-12T11:16:53+00:00</lastmod>
@@ -12,12 +27,6 @@
     <lastmod>2020-01-12T11:16:53+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/new-year-new-site/</loc>
-    <lastmod>2020-01-12T11:16:53+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2020-01-12T11:16:53+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2020-01-12T11:16:53+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/tech/</loc>
@@ -169,9 +178,6 @@
   </url><url>
     <loc>http://localhost:1313/goodbye-posterous-hello-wordpress/</loc>
     <lastmod>2012-03-17T21:22:30+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2012-03-14T22:11:49+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/communication/</loc>
     <lastmod>2012-02-21T18:00:00+00:00</lastmod>

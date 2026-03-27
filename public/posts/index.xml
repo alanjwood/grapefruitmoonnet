@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Alan Wood</copyright>
-    <lastBuildDate>Sun, 12 Jan 2020 11:16:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 09:04:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I&#39;m Back Baby!</title>
+      <link>http://localhost:1313/posts/2026-02-17-im-back-baby/</link>
+      <pubDate>Fri, 27 Mar 2026 09:04:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-02-17-im-back-baby/</guid>
+      <description>&lt;p&gt;Ah, just the six years since I last played around with this then. Oh well. Miss me??&lt;/p&gt;&#xA;&lt;p&gt;What&amp;rsquo;s brought me back? Well I&amp;rsquo;ve had a hankering to write again and figured I might as well stick it on here. Don&amp;rsquo;t care if it gets read or not. It&amp;rsquo;s a me project. There&amp;rsquo;s no strategy here, no agenda. I like simple text posts. I might post the odd photo. What I proabably won&amp;rsquo;t do is any code/SQL deep dives like I&amp;rsquo;ve done before. That&amp;rsquo;s just not something that interests me enough these days. I&amp;rsquo;ll keep some of the old stuff up for a while, but they might go too.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>New Year, New Site</title>
       <link>http://localhost:1313/new-year-new-site/</link>
