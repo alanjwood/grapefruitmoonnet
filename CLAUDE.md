@@ -65,8 +65,7 @@ hugo new posts/YYYY-MM-DD-post-title.md
 ### Theming and Layout
 
 - **config.toml** - Main site configuration
-  - Active theme: `mainroad` (configured in line 4)
-  - Note: The mainroad theme directory appears empty and may need to be installed via git submodule or download
+  - Active theme: `nostyleplease` (configured in line 4)
   - Google Analytics ID and site metadata are configured here
 
 - **layouts/shortcodes/** - Custom Hugo shortcodes
@@ -80,13 +79,12 @@ hugo new posts/YYYY-MM-DD-post-title.md
 
 ### Theme Configuration
 
-The site uses the **Risotto** theme (themes/risotto/) - a minimalist, terminal-inspired theme with:
-- Plain semantic HTML with no JavaScript
-- Plain CSS with no frameworks or preprocessors
-- 16 built-in color palettes (currently using `gruvbox-dark`)
-- Native responsive design using CSS Grid
-
-Available alternative themes: Coder, Jane (in themes/ directory)
+The site uses the **no style, please!** theme (themes/nostyleplease/) - a nearly no-CSS, fast, minimalist theme with:
+- Under 3kb of CSS
+- Light, dark, and auto modes
+- Responsive, content-first typography
+- MathJax support
+- RSS feed via Hugo's embedded RSS template
 
 ## Post Frontmatter Format
 
@@ -114,18 +112,13 @@ draft: false
 - Author: Alan Wood
 - Main sections: posts
 - Pagination: 10 posts per page
-- Theme: Risotto (minimalist, terminal-inspired)
-- Color palette: gruvbox-dark (can be changed in config.toml)
+- Theme: no style, please! (nostyleplease)
 
-### Risotto Theme Customization
+### nostyleplease Theme Customization
 
-**Homepage Behavior**: Shows the most recent blog post with full summary, plus 5 recent posts in the sidebar
+**Appearance**: Supports light, dark, and auto modes — configured via `params.theme_config` in config.toml
 
-**Sidebar**: All pages show a "Recent Posts" section with the 5 most recent blog posts
-
-**Color Palette**: Change by updating `params.theme.palette` in config.toml. Available palettes:
-- Dark: apprentice, base16-dark, dracula, gruvbox-dark, material, papercolor-dark, solarized-dark, tender, tokyo-night-dark, windows-95
-- Light: base16-light, gruvbox-light, papercolor-light, solarized-light, tokyo-night-light, windows-95-light
+**Menu**: Configured via `data/menu.toml`
 
 **Custom Styling**: Edit `static/css/custom.css` to customize appearance
 

@@ -1,3 +1,0 @@
-{{- if and (not (eq site.Config.Services.Disqus.Shortname "" )) (eq (.Params.disable_comments | default false) false) -}}
-  {{ template "_internal/disqus.html" . }}
-{{- end -}}
