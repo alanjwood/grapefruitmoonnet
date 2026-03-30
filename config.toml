@@ -15,6 +15,7 @@ pagerSize = 10
 [params]
 noindex = false
 mainSections = ["posts"]
+goatcounter = "grapefruitmoon"
 
 [params.theme]
 palette = "gruvbox-dark"
