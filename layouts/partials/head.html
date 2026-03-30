@@ -17,4 +17,5 @@
   <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
   <link rel="stylesheet" href="/css/custom.css" />
   {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
+  {{ partial "analytics.html" . }}
 </head>
